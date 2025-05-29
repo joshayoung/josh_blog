@@ -7,6 +7,8 @@ author: Jaydan Urwin
 categories:
   - Tutorials
   - Astro
+tags:
+- Applications
 ---
 
 ## Test Heading 2

@@ -7,6 +7,10 @@ author: Jaydan Urwin
 categories:
   - Tutorials
   - Astro
+tags:
+- Tutorials
+- Web Development
+- 11ty
 ---
 
 ## Test Heading 2
