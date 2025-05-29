@@ -10,3 +10,9 @@ workflow. I will continually update this page as I discover more tools that are 
 <ResourcesLinksOutput />
 
 <ResourcesOutput />
+
+<ul>
+{% for resource in resources %}
+    <li><a href="{{resource.url}}">{{ resource.title }}</a></li>
+  {% endfor %}
+</ul>

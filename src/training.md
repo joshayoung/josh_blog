@@ -156,7 +156,11 @@ You have to be selective with some of the classes offered on Udemy; however, som
 
 I took all of these classes as a part of a short Tree House membership. They were largely review for me, but some of the classes covered technologies that I had not had time to learn yet.
 
-<TreeHouseOutput />
+<ul>
+{% for tree in treehouse %}
+    <li><a href="{{tree.url}}">{{ tree.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ---
 
@@ -194,7 +198,11 @@ PluralSight also offers some good content. It is not as focused as other platfor
 
 The Code School site offers excellent classes. I took some of these as review and many as a way to level up my knowledge.
 
-<CodeSchoolOutput />
+<ul>
+{% for codes in codeschool %}
+    <li><a href="{{codes.url}}">{{ codes.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ---
 

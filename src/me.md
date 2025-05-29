@@ -24,20 +24,36 @@ I also spend some of my free time maintaining my home network, firewall, file se
 
 Below I have listed the tech podcasts that I currently listen to or have listened to in the past. Podcasts are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.
 
-<PodcastOutput />
+<ul>
+{% for pod in podcasts_recommended %}
+    <li><a href="{{pod.url}}">{{ pod.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ### <a id='podcast_episodes'></a>Great Podcast Episodes
 
-<PodcastRecommendOutput />
+<ul>
+{% for pod in podcasts %}
+    <li><a href="{{pod.url}}">{{ pod.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ### <a id='books'></a>Books I've Read
 
 Frequently, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that buying a book about a particular technology can be a beneficial deep-dive experience. Below I have listed some of the books I have read over the years, which have contributed to where I am today (listed in alphabetical order and categorized below).
 
-<BooksOutput />
+<ul>
+{% for book in books %}
+    <li><a href="{{book.url}}">{{ book.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ### <a id='books_i_recommend'></a>Books I Recommend
 
 Of the software engineering, networking, security, and design books that I listed above, these are some of the books that I highly recommend.
 
-<BooksRecommendedOutput />
+<ul>
+{% for book in books %}
+    <li><a href="{{book.url}}">{{ book.title }}</a></li>
+  {% endfor %}
+</ul>
