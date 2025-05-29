@@ -8,4 +8,20 @@ title: Josh Blog
     {% include "intro.html" %}
     {% include "glance.html" %}
     {% include "interests.html" %}
+    <section>
+        <header>Tags:</header>
+
+<ul>
+
+    {% set pageTitle = collections.posts | slice(2) %}
+{% for post in pageTitle %}
+    <li><a href="{{post.url}}">{{ post.id  }}</a></li>
+  {% endfor %}
+
+</ul>
+    </section>
 </main>
+
+    <script>
+        console.log("content:", "{{ pageTitle }}");
+    </script>
