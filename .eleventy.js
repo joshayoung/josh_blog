@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addWatchTarget("src/css/");
 
+    eleventyConfig.addCollection('posts', function(collectionApi) {
+    return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
+  })
+
   eleventyConfig.addExtension("scss", {
 		outputFileExtension: "css",
 
