@@ -4,6 +4,7 @@ description: This post outlines my decision to start using Laravel and PostgreSQ
 date: 2017-04-12
 path: /laravel-notes
 tags: ["laravel", "php", "postgresql"]
+layout: layouts/base.html
 ---
 
 Over the years, I have accumulated a lot of notes about various tech projects I have completed. However, I never seem to be able to find a note when I need it. I also tend to bookmark a lot of helpful URLs according to subject area. It would be nice to have a system to tabulate all of the information, index it, and allow for searching.

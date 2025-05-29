@@ -4,6 +4,7 @@ description: My thoughts on learning and using react. This post outlines my thou
 date: 2017-01-09
 path: /starting-with-react
 tags: ["react", "javascript"]
+layout: layouts/base.html
 ---
 
 I have always loved JavaScript. In fact, it is probably my favorite language. On the surface it seems simple. Indeed, the basic syntax is easy for anyone to pick-up. However, upon investigation, it is a very complex and powerful language. For a while now, I have been trying out a few of the different JavaScript frameworks.

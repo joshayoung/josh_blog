@@ -4,6 +4,7 @@ description: Here I describe some of the basic building blocks of Docker and how
 date: 2020-06-15
 path: /start-with-docker
 tags: ["docker"]
+layout: layouts/base.html
 ---
 
 Before I embark on the road to explain docker, I want to define a few concepts. In the docker world, we have two structures: _images_ and _containers_. At the base level, you can download (pull) an image from the [hub.docker.com](https://hub.docker.com), and use it to build a container.

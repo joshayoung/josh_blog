@@ -4,6 +4,7 @@ description: These are some pertinent quotes from my reading of the Micro Fronte
 date: 2022-04-14
 path: /micro-frontend-reading
 tags: ["frontend", "backend", "micro", "spa", "bff"]
+layout: layouts/base.html
 ---
 
 In the article ([Micro Frontends](https://martinfowler.com/articles/micro-frontends.html)), Cam Jackson describes the principles behind a micro frontend architecture. Listed below are some quotes from the article that I thought were very good. I highly recommend a full reading of this article.

@@ -4,6 +4,7 @@ description: These are some pertinent quotes from my reading of the Pattern Back
 date: 2022-04-14
 path: /notes-on-frontend-reading
 tags: ["frontend", "backend", "micro", "spa", "bff"]
+layout: layouts/base.html
 ---
 
 In the article ([Pattern: Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)), Sam Newman describes the principles behind the frontend for backend architecture. Listed below are some quotes from the article that I thought were very good. I highly recommend a full reading of this article.

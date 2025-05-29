@@ -4,6 +4,7 @@ description: These are the tips I have learned for best databases creation. I ha
 date: 2017-06-20
 path: /database-best-practices
 tags: ["databases", "standards"]
+layout: layouts/base.html
 ---
 
 Over the years, I have come to some general conclusions regarding database structure and naming which I have listed below:

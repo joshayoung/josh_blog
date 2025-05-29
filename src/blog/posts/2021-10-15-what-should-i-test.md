@@ -4,6 +4,7 @@ description: When testing code, which portions should be tested and why. This po
 date: 2021-10-15
 path: /what-should-i-test
 tags: ["testing"]
+layout: layouts/base.html
 ---
 
 There are two general types of actions that can be performed in function - a command or a query. In general, a query would return a value and a command would mutate state in some way.

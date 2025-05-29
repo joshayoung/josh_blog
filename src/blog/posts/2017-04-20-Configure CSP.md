@@ -4,6 +4,7 @@ description: Here I have outline some resources for configuring the Content Secu
 date: 2017-04-20
 path: /configure-csp
 tags: ["security", "csp"]
+layout: layouts/base.html
 ---
 
 After recently learning about Content Security Policy (CSP), I decided to implement it on this site. For the uninitiated, CSP is essentially a way to lock down which scripts, styles, images, etc are allowed to run on your site. This was implemented in an effort to prevent security issues such as Cross Site Scripting (XSS) attacks.

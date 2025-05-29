@@ -4,6 +4,7 @@ description: In order to update a docker container, there are multiple steps. Th
 date: 2021-03-03
 path: /updating-docker-container
 tags: ["docker"]
+layout: layouts/base.html
 ---
 
 In order to update a docker container, we need to follow a few steps _(outlined below)_. We will need to update the image to a newer version and then build a new container based off that image. It is usually best to not use the image with the ':latest' tag. Instead try to build your container off of a specific image version

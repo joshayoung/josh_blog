@@ -4,6 +4,7 @@ description: This serves as a reference for a basic rails MVC setup with minimal
 date: 2018-05-20
 path: /basic-rails-mvc-setup
 tags: ["programming", "rails", "ruby", "mvc"]
+layout: layouts/base.html
 ---
 
 I wrote this post to describe the basic rails setup to get a simple CRUD application going. Of course this can be greatly improved upon, but I thought it would be helpful to outline the basic structure. I will outline each file with a simple explanation for each one. To initialize a project list this, you would need to have rails 5 installed and create a new project with the `rails new [project name]` command.
