@@ -12,6 +12,15 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
   })
 
+  eleventyConfig.addFilter("debugger", (...args) => {
+    console.log(...args)
+    debugger;
+  })
+
+  eleventyConfig.addFilter("limit", function (arr, limit) {
+    return arr.slice(0, limit);
+  });
+
   eleventyConfig.addExtension("scss", {
 		outputFileExtension: "css",
 
