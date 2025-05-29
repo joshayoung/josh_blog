@@ -174,3 +174,12 @@ footer {
     font-size: 14px;
   }
 }
+
+.stats {
+  @media (min-width: 600px) {
+        display: flex;
+        flex-direction: wrap;
+        justify-content: space-between;
+      }
+
+}
