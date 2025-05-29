@@ -1,8 +1,4 @@
 @import url('./normalize.css');
-
-h1 {
-  color: blue;
-}
-body {
-    background: red;
-}
+@import url('./font.css');
+@import url('./code-style.css');
+@import url('../scss/overrides.css');
