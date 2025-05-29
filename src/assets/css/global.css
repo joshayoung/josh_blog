@@ -1,0 +1,8 @@
+@import url('./normalize.css');
+
+h1 {
+  color: blue;
+}
+body {
+    background: red;
+}

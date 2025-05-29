@@ -4,6 +4,7 @@
   "description": "### Initial Setup Commands * npm init -y * npx @11ty/eleventy --serve",
   "main": "index.js",
   "scripts": {
+    "build": "npx eleventy",
     "start": "npx eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
