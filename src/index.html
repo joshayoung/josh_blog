@@ -27,11 +27,11 @@ title: Josh Blog
                     <Link to="/tags">Tags</Link>
                 </header>
 
-                <ul>
-    {% for tag in collections.tags %}
-        <li><a href="blog/tag/{{ tag | url }}">{{ tag }}</a></li>
-    {% endfor %}
-</ul>
+                <ul aria-labelledby="tags">
+                    {% for tag in collections.tags %}
+                    <li><a href="blog/tag/{{ tag | url }}">{{ tag }}</a></li>
+                    {% endfor %}
+                </ul>
             </section>
             <!-- end tags -->
 
