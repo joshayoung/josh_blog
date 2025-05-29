@@ -20,7 +20,23 @@ title: Josh Blog
             {% include "intro.html" %}
             {% include "glance.html" %}
             {% include "interests.html" %}
-            <section>
+
+            <!-- tags: -->
+            <section class="tags">
+                <header>
+                    <Link to="/tags">Tags</Link>
+                </header>
+                <ul aria-labelledby="tags">
+                        {% set pageTitle = collections.posts | limit(2) %}
+                        {% for post in pageTitle %}
+                        <li><a href="{{post.url}}">{{ post.data.title }}</a></li>
+                        {% endfor %}
+                </ul>
+            </section>
+            <!-- end tags -->
+
+            <!-- stats: -->
+            <section class="latest_posts">
                 <header>Latest Posts:</header>
                 <dov class="stats">
                     <ul>
@@ -31,6 +47,7 @@ title: Josh Blog
                     </ul>
                 </dov>
             </section>
+            <!-- end stats -->
 
             {% include "gototop.html" %}
         </main>
