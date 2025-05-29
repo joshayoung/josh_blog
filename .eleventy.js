@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addTemplateFormats("scss")
 
   eleventyConfig.addWatchTarget("src/css/");
+  eleventyConfig.addWatchTarget("src/_includes/");
 
   eleventyConfig.addExtension("scss", {
 		outputFileExtension: "css",
