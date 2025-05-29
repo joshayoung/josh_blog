@@ -4,12 +4,9 @@
     {% include "head.html" %}
   </head>
   <body>
-    {% include "logo.html" %}
-    {% include "social.html" %}
 
     {% block content %}
       {{ content | safe }}
     {% endblock %}
   </body>
-  {% include "footer.html" %}
 </html>
