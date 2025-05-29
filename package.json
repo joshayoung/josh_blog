@@ -1,0 +1,24 @@
+{
+  "name": "josh_blog",
+  "version": "1.0.0",
+  "description": "### Initial Setup Commands * npm init -y * npx @11ty/eleventy --serve",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshayoung/josh_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshayoung/josh_blog/issues"
+  },
+  "homepage": "https://github.com/joshayoung/josh_blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.0"
+  }
+}
