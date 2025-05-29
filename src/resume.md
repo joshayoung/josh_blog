@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # Resume
 
 ### Experienced - Mobile Software Engineer

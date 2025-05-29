@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # My Certifications
 
 Below I have included a list of certifications that I have attained over the past few years.

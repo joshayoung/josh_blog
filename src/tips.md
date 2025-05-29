@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # Tips
 
 These are some tips for development that I have found helpful. These also serve as helpful future reminders.

@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # Resources
 
 Here, I will be listing helpful resources, documentation, and tools that I use in my daily web development

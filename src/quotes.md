@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # Tech Quotes
 
 These are some of the tech-related quotes that I have found helpful and memorable. In order to preserve them, I have included them here along with a reference to the source of the quote.

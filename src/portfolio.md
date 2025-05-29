@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # Portfolio
 
 Below I have listed some of the projects that I have developed over the years along with the programming languages used for each.
