@@ -1,7 +1,7 @@
 {
-  "name": "josh_blog",
+  "name": "Josh_Website",
   "version": "1.0.0",
-  "description": "### Initial Setup Commands * npm init -y * npx @11ty/eleventy --serve",
+  "description": "Josh A. Young's Personal Website",
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",

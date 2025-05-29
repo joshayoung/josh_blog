@@ -291,7 +291,31 @@ main {
       top: 0.6rem;
     }
   }
+}
 
+.logo {
+  font-size: 52px;
+  font-family: "Acme", sans-serif;
+  display: block;
+
+  .logo span {
+    color: #3385ff;
+  }
+
+  .logo .subtitle {
+    font-size: 20px;
+    color: #3385ff;
+
+    &:before {
+      content: "{ ";
+      color: #b3b3b3;
+    }
+
+    &:after {
+      content: " }";
+      color: #b3b3b3;
+    }
+  }
 }
 
 nav {
