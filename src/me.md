@@ -1,3 +1,8 @@
+import PodcastOutput from '../output/podcast-output';
+import PodcastRecommendOutput from '../output/podcast-recommended-output';
+import BooksOutput from '../output/books-output';
+import BooksRecommendedOutput from '../output/books-recommended-output';
+
 # About Me
 
 My name is Josh Young. I am a mobile developer living and working near Nashville, Tennessee. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently working with or technologies that I am using. Maybe something I say here will help someone in their journey, or at the very least provide a central place for me to document what I have learned when working through new projects.
@@ -19,44 +24,20 @@ I also spend some of my free time maintaining my home network, firewall, file se
 
 Below I have listed the tech podcasts that I currently listen to or have listened to in the past. Podcasts are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.
 
-<ul>
-    {% for pod in podcasts %}
-        <li>
-          <a href='{{ pod.url }}'>{{ pod.title }}</a>
-        </li>
-    {% endfor %}
-</ul>
+<PodcastOutput />
 
 ### <a id='podcast_episodes'></a>Great Podcast Episodes
 
-<ul>
-    {% for pod in podcasts %}
-        <li>
-          <a href='{{ pod.url }}'>{{ pod.title }}</a>
-        </li>
-    {% endfor %}
-</ul>
+<PodcastRecommendOutput />
 
 ### <a id='books'></a>Books I've Read
 
 Frequently, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that buying a book about a particular technology can be a beneficial deep-dive experience. Below I have listed some of the books I have read over the years, which have contributed to where I am today (listed in alphabetical order and categorized below).
 
-<ul>
-    {% for book in books %}
-        <li>
-          <a href='{{ book.url }}'>{{ book.title }}</a>
-        </li>
-    {% endfor %}
-</ul>
+<BooksOutput />
 
 ### <a id='books_i_recommend'></a>Books I Recommend
 
 Of the software engineering, networking, security, and design books that I listed above, these are some of the books that I highly recommend.
 
-<ul>
-    {% for book in books %}
-        <li>
-          <a href='{{ book.url }}'>{{ book.title }}</a>
-        </li>
-    {% endfor %}
-</ul>
+<BooksRecommendedOutput />
