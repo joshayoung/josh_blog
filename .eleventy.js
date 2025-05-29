@@ -12,6 +12,16 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
   })
 
+  eleventyConfig.addCollection("tags", function(collection) {
+        let tags = new Set();
+        collection.getAll().forEach(item => {
+            if (item.data.tags) {
+                item.data.tags.forEach(tag => tags.add(tag));
+            }
+        });
+        return Array.from(tags);
+    });
+
   eleventyConfig.addFilter("debugger", (...args) => {
     console.log(...args)
     debugger;
