@@ -1,6 +1,3 @@
-import Image from "../components/image";
-import Cert from "../components/cert";
-
 # My Certifications
 
 Below I have included a list of certifications that I have attained over the past few years.

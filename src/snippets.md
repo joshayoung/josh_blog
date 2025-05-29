@@ -1,15 +1,3 @@
-import Chrome from "../snippets/chrome.js";
-import Docker from "../snippets/docker.js";
-import HTTP from "../snippets/http.js";
-import Postgresql from "../snippets/postgresql.js";
-import Kanban from "../snippets/kanban.js";
-import Rubymine from "../snippets/rubymine.js";
-import TMUX from "../snippets/tmux.js";
-import VIM from "../snippets/vim.js";
-import VSCode from "../snippets/vs-code.js";
-import AnchorList from "../components/anchor-list";
-import SnippetAnchorList from "../snippets/snippet-anchor-list";
-
 # Code Snippets
 
 Below, I have listed some common code snippets that I commonly go back to reference. Maybe you will find some of these useful. I update these routinely and add new ones as I run across them.

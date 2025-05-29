@@ -1,5 +1,3 @@
-import TechnicalSkills from "../snippets/technical-skills";
-
 # Resume
 
 ### Experienced - Mobile Software Engineer

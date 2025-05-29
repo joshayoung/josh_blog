@@ -1,8 +1,3 @@
-import PodcastOutput from '../output/podcast-output';
-import PodcastRecommendOutput from '../output/podcast-recommended-output';
-import BooksOutput from '../output/books-output';
-import BooksRecommendedOutput from '../output/books-recommended-output';
-
 # About Me
 
 My name is Josh Young. I am a mobile developer living and working near Nashville, Tennessee. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently working with or technologies that I am using. Maybe something I say here will help someone in their journey, or at the very least provide a central place for me to document what I have learned when working through new projects.

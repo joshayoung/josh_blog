@@ -1,8 +1,3 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import TechSpec from "../snippets/tech-spectrum";
-
 const TechSpectrum = () => (
   <Layout klass="tech-spectrum">
     <SEO title="Tech Spectrum" />
