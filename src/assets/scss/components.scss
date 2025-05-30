@@ -1,4 +1,4 @@
-$blue: "#3385ff";
+$blue: #3385ff;
 
 .intro {
   padding: 20px 0;
@@ -385,17 +385,16 @@ nav {
   }
 }
 
-.gototop {
-
+a.gototop {
   bottom: 0;
   left: 200px;
   display: block;
-  background: $blue;
   padding: 2px 10px;
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
   font-size: 14px;
   color: #fff;
+  background-color: $blue;
 
   &:hover {
     text-decoration: underline;
@@ -468,8 +467,12 @@ nav {
     font-size: 20px;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     display: block;
   }
 
+}
+
+.latest_posts {
+  margin-bottom: 50px;
 }
