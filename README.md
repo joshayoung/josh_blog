@@ -6,6 +6,10 @@
 * npx @11ty/eleventy --serve
 * npm install sass
 
+### To Do
+* Optimize CSS
+* Optimize JS
+* Correct Hamberber Navigation
 
 ### Resources
 * https://www.11ty.dev

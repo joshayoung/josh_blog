@@ -33,4 +33,26 @@
 
     // TODO: Do I need to remove this at some point?
     // window.removeEventListener("scroll", this.handleScroll);
+
+    /// navigation:
+    let hamburger = document.querySelector(".hamburger");
+    let navigation = document.querySelector(".nav");
+    let isOpen = document.body.classList.contains("open");
+
+    if (isOpen) {
+      document.body.classList.remove("open");
+    }
+
+    hamburger.addEventListener("click", e => {
+      e.preventDefault();
+      document.body.classList.toggle("open");
+    });
+
+    navigation.addEventListener("click", e => {
+      let name = e.target.tagName;
+      if (name === "A" && isOpen) {
+        document.body.classList.remove("open");
+      }
+    });
+
 </script>

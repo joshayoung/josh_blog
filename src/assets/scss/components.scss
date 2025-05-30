@@ -214,8 +214,8 @@ footer {
     height: 0.25rem;
     position: relative;
     width: 2rem;
+    transition: background 0.4s ease;
 
-    // transition: background 0.4s ease;
     &:before,
     &:after {
       display: inline-block;
