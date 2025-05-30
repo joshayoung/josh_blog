@@ -347,10 +347,8 @@ nav {
 
 a.gototop {
   display: none;
-  position: relative;
   bottom: 0;
   left: 200px;
-  display: block;
   padding: 2px 10px;
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
@@ -365,7 +363,6 @@ a.gototop {
 }
 
 .tags {
-
   padding-bottom: 10px;
   border-bottom: 3px solid #3385ff;
   margin-bottom: 50px;
