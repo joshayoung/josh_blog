@@ -29,8 +29,10 @@
   top: 0;
 }
 .open span:before {
-  transform: rotate3d(0, 0, 1, -45deg);
+  // transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate(-45deg);
 }
 .open span:after {
-  transform: rotate3d(0, 0, 1, 45deg);
+  // transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate(45deg);
 }
