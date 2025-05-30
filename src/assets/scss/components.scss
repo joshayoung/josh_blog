@@ -191,46 +191,6 @@ footer {
 
 }
 
-.wrap {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  padding-bottom: 100px;
-}
-
-.inner {
-  @media (min-width: 700px) {
-    display: flex;
-    justify-content: flex-start;
-  }
-}
-
-main {
-
-  margin: 1rem auto;
-  max-width: 90vw;
-  width: 700px;
-
-  @media (min-width: 700px) {
-    border-left: 1px solid #dedede;
-    margin: 0;
-    margin-top: 50px;
-    padding-left: 30px;
-  }
-
-  >p:first-of-type {
-    line-height: 2;
-    font-size: 25px;
-    background: #eaeaea;
-    border-bottom: 1px solid #3385ff;
-    box-shadow: 1px 1px 1px #ccc;
-    padding: 0 10px;
-    font-family: "Acme", sans-serif;
-  }
-
-
-}
-
 .hamburger {
   cursor: pointer;
   z-index: 100;
@@ -293,11 +253,11 @@ main {
   font-family: "Acme", sans-serif;
   display: block;
 
-  .logo span {
+  span {
     color: #3385ff;
   }
 
-  .logo .subtitle {
+  .subtitle {
     font-size: 20px;
     color: #3385ff;
 
@@ -385,7 +345,7 @@ nav {
   }
 }
 
-a.gototop {
+.gototop {
   bottom: 0;
   left: 200px;
   display: block;
@@ -455,23 +415,6 @@ a.gototop {
 
 }
 
-.aside {
-  display: none;
-  max-width: 300px;
-  font-size: 14px;
-  padding: 10px;
-  padding-left: 40px;
-  margin-top: 240px;
-
-  header {
-    font-size: 20px;
-  }
-
-  @media (min-width: 800px) {
-    display: block;
-  }
-
-}
 
 .latest_posts {
   margin-bottom: 50px;

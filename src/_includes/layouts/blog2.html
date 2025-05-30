@@ -14,7 +14,9 @@ title: Josh Blog
 
         <main>
             {% include "logo.html" %}
+            <div class="social">
             {% include "social.html" %}
+            </div>  
 
              {{ content | safe }}
 
@@ -25,6 +27,7 @@ title: Josh Blog
 
         <div class="aside">
             {% include "glance.html" %}
+            {% include "tech.html" %}
         </div>
     </div><!-- inner-->
 </div><!-- wrap -->
