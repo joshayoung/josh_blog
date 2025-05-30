@@ -10,3 +10,27 @@
     {% endblock %}
   </body>
 </html>
+<script>
+    var offScreen = false;
+
+    function handleScroll() {
+      const elem = document.getElementsByClassName("gototop")[0];
+        if (window.pageYOffset > 200) {
+            elem.style.position = "fixed";
+            elem.style.display = "block";
+        } else {
+            elem.style.position = "relative";
+            elem.style.display = "none";
+        }
+    }
+
+    function closeNav(e) {
+        // document.getElementById("js_navigation").style.display = 'none';
+    }
+
+    window.addEventListener("scroll", this.handleScroll);
+    document.body.addEventListener("click", this.closeNav(this), false);
+
+    // TODO: Do I need to remove this at some point?
+    // window.removeEventListener("scroll", this.handleScroll);
+</script>

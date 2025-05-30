@@ -345,7 +345,9 @@ nav {
   }
 }
 
-.gototop {
+a.gototop {
+  display: none;
+  position: relative;
   bottom: 0;
   left: 200px;
   display: block;
