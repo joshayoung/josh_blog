@@ -1,10 +1,13 @@
 const path = require("node:path");
 const sass = require("sass");
+const Card = require('./src/_includes/components/Card')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/");
   eleventyConfig.addPassthroughCopy("src/css/");
   eleventyConfig.addTemplateFormats("scss")
+
+  eleventyConfig.addShortcode("Card", Card);
 
   eleventyConfig.addWatchTarget("src/css/");
 
