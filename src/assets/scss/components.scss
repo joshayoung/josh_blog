@@ -421,3 +421,31 @@ a.gototop {
 .latest_posts {
   margin-bottom: 50px;
 }
+
+.tech-skills-wrap {
+  ul {
+        margin-left: 0;
+        border-bottom: 1px solid #ccc;
+        overflow: hidden;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        &:last-child {
+          border-bottom: none;
+        }
+        li {
+          flex: 0 1 auto;
+          padding: 0 6px;
+          font-size: pxToRem(12px);
+          padding: 0 pxToRem(6px);
+          &:first-of-type {
+            font-weight: bold;
+            color: green;
+            &:after {
+              content: ": ";
+            }
+          }
+        }
+      }
+}

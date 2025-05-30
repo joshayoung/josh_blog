@@ -211,4 +211,4 @@ More information about each certification is listed on my [certifications](/cert
 
 ### Technical Skills
 
-<TechnicalSkills />
+{% include "tech-skills.html" %}
