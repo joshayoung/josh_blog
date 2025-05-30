@@ -4,7 +4,7 @@ description: There are lots of different ways to use the docker run command. Thi
 date: 2021-02-22
 path: /docker-run-command
 tags: ["docker"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 The `docker run` command is used to create a container from an image. It can be executed in a few different ways to provide images in different formats.

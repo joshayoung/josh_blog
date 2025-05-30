@@ -4,7 +4,7 @@ description: Book Quotes
 date: 2025-02-27
 path: /scrum-book
 tags: ["scrum", "process"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 Below are some of my favorite parts of the book: [Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland and J. J. Sutherland](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X).

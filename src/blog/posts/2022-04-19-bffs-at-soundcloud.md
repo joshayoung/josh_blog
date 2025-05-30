@@ -4,7 +4,7 @@ description: These are some notes from an article describing SoundCloud's proces
 date: 2022-04-19
 path: /bff-at-soundcloud
 tags: ["frontend", "backend", "micro", "spa", "bff"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 In this article ([BFF @ SoundCloud](https://www.thoughtworks.com/insights/blog/bff-soundcloud)), Lukasz Plotnicki outlines the process SoundCloud used to implement backend-for-frontends in their infrastructure. Below are some quotes from the article that I thought were excellent.

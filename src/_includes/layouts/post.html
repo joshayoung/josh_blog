@@ -1,20 +1,44 @@
-{% extends "layouts/base.html" %}
+---
+layout: layouts/base.html
+title: Josh Blog
+---
 
-{% block head %}
-  <link rel="stylesheet" href="/css/post.css" />
-{% endblock %}
+<div class="wrap">
+    <div class="inner">
+        <a id="top" href="#1" aria-label="top"></a>
 
-{% block content %}
-  <article class="post__content">
-    <h1>{{ title }}</h1>
-    <p><time>{{ date }}</time></p>
-    <ul>
-      {% for tag in tags %}
-        <li>
-          <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    {{ content | safe }}
-  </article>
-{% endblock %}
+        <button class="hamburger">
+            <span></span>
+        </button>
+        {% include "navigation.html" %}
+
+        <main>
+            {% include "logo.html" %}
+            <div class="social">
+                {% include "social.html" %}
+            </div>
+
+            {% block content %}
+              <article class="post__content">
+                <h1>{{ title }}</h1>
+                <p><time>{{ date }}</time></p>
+                <ul>
+                  {% for tag in tags %}
+                    <li>
+                      <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+                {{ content | safe }}
+              </article>
+            {% endblock %}
+
+            {% include "gototop.html" %}
+        </main>
+
+        <div class="aside">
+            {% include "glance.html" %}
+        </div>
+    </div><!-- inner-->
+</div><!-- wrap -->
+{% include "footer.html" %}

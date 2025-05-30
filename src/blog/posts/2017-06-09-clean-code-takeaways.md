@@ -4,7 +4,7 @@ description: These are my notes and key takeaways from a reading of Clean Code b
 date: 2017-06-09
 path: /clean-code-takeaways
 tags: ["programming"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 I recently started reading Clean Code by Robert C. Martin. Over the years, I have heard high praise from people who have found this book helpful, and I have finally found the time to start reading it. So far I find this to be an excellent book. As I continue reading it, I will update this post with my general conclusions which I have listed below:

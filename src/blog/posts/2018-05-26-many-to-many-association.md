@@ -4,7 +4,7 @@ description: This post will demonstrate a basic many-to-many association in rail
 date: 2018-05-26
 path: /many-to-many-association
 tags: ["programming", "rails", "ruby", "mvc"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 To setup a basic many-to-many associations, we need to start by declaring the needed models withing the rails console. We need three models for this purpose. Two tables with a regular ID field and one table with its ID field along with the ID fields of each of the other tables. This table serves the purpose of a joining table (a.ka. Join Table or Pivot Table). The many-to-many association is really

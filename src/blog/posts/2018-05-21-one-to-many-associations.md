@@ -4,7 +4,7 @@ description: This post will step through the necessary steps to setup a one-to-m
 date: 2018-05-21
 path: /one-to-many-associations
 tags: ["programming", "rails", "ruby", "mvc"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 Below I have outlined the necessary steps to get a one-to-many association going in your rails project. For each step, I tried to outline the setup steps as well as the SQL queries that are executed behind the schemes for each of these commands.

@@ -4,7 +4,7 @@ description: When working on a larger team, it is sometimes easier to work from 
 date: 2021-12-27
 path: /git-feature-branching
 tags: ["git"]
-layout: layouts/base.html
+layout: layouts/post.html
 ---
 
 Below I have outlines the steps necessary to create a feature branch and use this branch for all of your work before merging to your main or master branch. In this case, my "feature" branch is the branch that I have initially created from my default branch (`main`/`master`) and used for all of my subsequent branches. I find it simpler to name this branch something like `TICKETNUMBER-main` or `TICKETNUMBER-master`. This way I know that it is my new default branch going forward. 
