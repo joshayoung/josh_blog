@@ -25,6 +25,12 @@ Many of these certs required passing more than one test. I have included a short
   logo="resized/SecurityPlus_Logo_Certified_CE.png"
   link="https://certification.comptia.org/certifications/security"
 >
+
+{% CertBadge
+  url="https://certification.comptia.org/certifications/security",
+  image="resized/SecurityPlus_Logo_Certified_CE.png"
+%}
+
 The CompTIA Security+ certification addressed many IT security subjects such as: cryptography, network security, compliance, threats, access control, etc. This was a very good introduction to security subjects as they relate to computers and networks.
 </Cert>
 
