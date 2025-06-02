@@ -1,6 +1,7 @@
 const path = require("node:path");
 const sass = require("sass");
 const Card = require('./src/_includes/components/Card')
+const Thought = require('./src/_includes/components/Thought')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/");
@@ -8,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addTemplateFormats("scss")
 
   eleventyConfig.addShortcode("Card", Card);
+  eleventyConfig.addShortcode("Thought", Thought);
 
   eleventyConfig.addWatchTarget("src/css/");
 
