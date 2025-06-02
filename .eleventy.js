@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
   // Components:
   eleventyConfig.addShortcode("Card", Card);
   eleventyConfig.addShortcode("Thought", Thought);
-  eleventyConfig.addShortcode("CertBadge", CertBadge);
+  eleventyConfig.addPairedShortcode("CertBadge", CertBadge);
 
   eleventyConfig.addWatchTarget("src/css/");
 

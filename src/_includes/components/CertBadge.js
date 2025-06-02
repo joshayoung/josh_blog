@@ -1,10 +1,13 @@
 const {html} = require('common-tags');
 
-function CertBadge({url, image}) {
+function CertBadge(content,{url, image}) {
     return html`
-    <a href="${url}">
-        <img width="100" src="/assets/images/certs/Aplus_Logo_Certified_CE.png" />
-    </a>
+    <div class='cert-image'>
+        <a href="${url}">
+            <img width="100" src="/assets/images/${image}" />
+        </a>
+        ${content}
+    </div>
     `;
 }
 
