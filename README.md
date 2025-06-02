@@ -7,6 +7,9 @@
 * npx @11ty/eleventy --serve
 * npm install sass
 
+### Notes
+* This uses `nunjucks` for templating.
+
 ### To Do
 * Optimize CSS
 * Optimize JS

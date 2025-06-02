@@ -7,12 +7,7 @@ title: Josh Blog
 Here I document concise posts about mobile/web development or programming concepts that I am learning or have recently discovered. Many times these entries are very short, as I am not a prolific blogger. However, hopefully something I list here will be helpful to others.
 
 <ul>
-    {% set pageTitle = collections.posts %}
-    {% for post in pageTitle %}
-    <!-- <li><a href="{{post.url}}">{{ post.data.title }}</a></li> -->
-    {% set title = post.data.title %}
-
-    {% Thought post.data.title, post.data.url, post.data.description, post.data.date %}
-
+    {% for post in collections.posts | reverse %}
+        {% Thought post.data.title, post.url, post.data.description, post.data.date %}
     {% endfor %}
 </ul>
