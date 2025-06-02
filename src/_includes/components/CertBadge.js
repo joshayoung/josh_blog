@@ -1,13 +1,26 @@
-const {html} = require('common-tags');
+const { html } = require('common-tags');
 
-function CertBadge(content,{url, image}) {
+function CertBadge(content, { url, image = null }) {
+    if (image != null)
+    {
+        var imageStuff = html`
+    <div class='one'>
+            <img 
+            src="/assets/images/${image}" />
+            </div>
+        `;
+    }
+
     return html`
     <div class='cert-image'>
-        <a href="${url}">
-            <img width="100" src="/assets/images/${image}" />
-        </a>
-        ${content}
+    ${imageStuff}
+        <div class='image-description'>
+            ${content}
+        </div> 
     </div>
+        <div>
+            <a href="${url}">About Certification</a>
+        </div>
     `;
 }
 
