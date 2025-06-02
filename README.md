@@ -14,6 +14,7 @@
 * Optimize CSS
 * Optimize JS
 * Correct Hamberber Navigation
+* Add Udemy Classes
 
 ### Resources
 * https://www.11ty.dev
