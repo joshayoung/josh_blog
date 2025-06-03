@@ -459,17 +459,24 @@ a.gototop {
 
 .cert-image {
   display: flex;
-  .one {
-    flex: 23%;
+  .image-wrap {
+    padding-right: 10px;
   }
   img {
     height: auto;
     width: auto;
     height: auto;
-    max-width: 300px; 
-    max-height: 300px;
+    max-width: 100px; 
+    max-height: 100px;
   }
-  .image-description {
-    flex: 77%;
+  .image-description p {
+    margin: 0;
   }
+}
+a.about-cert {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+  color: $blue;
 }
