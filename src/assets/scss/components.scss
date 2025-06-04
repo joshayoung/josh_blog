@@ -416,6 +416,20 @@ a.gototop {
 
 .latest_posts {
   margin-bottom: 50px;
+  header {
+    font-family: "Acme",sans-serif;
+    color: #3385ff;
+    padding: 3px;
+  }
+    header:before {
+      content: "{ ";
+      color: #b3b3b3;
+    }
+
+    header:after {
+      content: " }";
+      color: #b3b3b3;
+    }
 }
 
 .tech-skills-wrap {
