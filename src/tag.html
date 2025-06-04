@@ -10,10 +10,40 @@ eleventyComputed:
   title: Posts Tagged with "{{ tag }}"
 ---
 
-<h1>Posts Tagged with {{ tag }}</h1>
+<div class="wrap">
+    <div class="inner">
+        <a id="top" href="#1" aria-label="top"></a>
 
-{% for post in collections[tag] %}
-  <li>
-    <a href="{{post.url}}">{{post.data.title}}</a>
-  </li>
-{% endfor %}
+        <button class="hamburger">
+            <span></span>
+        </button>
+        {% include "navigation.html" %}
+
+        <main>
+            {% include "logo.html" %}
+            <div class="social">
+                {% include "social.html" %}
+            </div>
+
+            {% block content %}
+              <article class="post__content">
+                <h1>Thoughts Tagged with '{{ tag }}'</h1>
+                <ul>
+                {% for post in collections[tag] %}
+                  <li>
+                    <a href="{{post.url}}">{{post.data.title}}</a>
+                  </li>
+                {% endfor %}
+                </ul>
+              </article>
+            {% endblock %}
+
+            {% include "gototop.html" %}
+        </main>
+
+        <div class="aside">
+            {% include "glance.html" %}
+        </div>
+    </div><!-- inner-->
+</div><!-- wrap -->
+{% include "footer.html" %}
