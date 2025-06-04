@@ -57,13 +57,6 @@ Frequently, I try to delve deeper into specific aspects of tech that I want to l
 
 Of the software engineering, networking, security, and design books that I listed above, these are some of the books that I highly recommend.
 
-<ul>
 {% for book in books %}
-    <h5>{{ book.title }}</h5>
-    <ul>
-      {% for b in book.data %}
-       {% Book b.title, b.author, b.url, b.display,  b.recommend %}
-      {% endfor %}
-    </ul>
-  {% endfor %}
-</ul>
+    {% Book book.title, book.hide_from_recommended, book.data %}
+{% endfor %}
