@@ -18,6 +18,22 @@ h1 {
   border-bottom: 1px solid #3385ff;
 }
 
+dl dt {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(51, 133, 255);
+}
+
+dl dt::after {
+  content: ": ";
+}
+
+dl dd {
+  margin: 0px 0px 10px;
+  font-style: italic;
+  font-size: 14px;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 18px;

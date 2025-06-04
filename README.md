@@ -22,3 +22,4 @@
 * https://www.11ty.dev/docs/projects/
 * https://11ty.rocks/eleventyjs/data-arrays/
 * https://www.11ty.dev/docs/shortcodes/
+* https://github.com/11ty/eleventy/issues/411#issuecomment-1296897934
