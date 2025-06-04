@@ -44,7 +44,12 @@ Frequently, I try to delve deeper into specific aspects of tech that I want to l
 
 <ul>
 {% for book in books %}
-    <li><a href="{{book.url}}">{{ book.title }}</a></li>
+    <h5>{{ book.title }}</h5>
+    <ul>
+      {% for b in book.data %}
+        <li><a href="{{b.url}}">{{ b.title }}</a></li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 </ul>
 
@@ -54,6 +59,11 @@ Of the software engineering, networking, security, and design books that I liste
 
 <ul>
 {% for book in books %}
-    <li><a href="{{book.url}}">{{ book.title }}</a></li>
+    <h5>{{ book.title }}</h5>
+    <ul>
+      {% for b in book.data %}
+       {% Book b.title, b.author, b.url, b.display,  b.recommend %}
+      {% endfor %}
+    </ul>
   {% endfor %}
 </ul>

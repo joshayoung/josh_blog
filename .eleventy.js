@@ -3,6 +3,7 @@ const sass = require("sass");
 const Card = require('./src/_includes/components/Card')
 const Thought = require('./src/_includes/components/Thought')
 const CertBadge = require('./src/_includes/components/CertBadge')
+const Book = require('./src/_includes/components/Book')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/");
@@ -13,6 +14,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode("Card", Card);
   eleventyConfig.addShortcode("Thought", Thought);
   eleventyConfig.addPairedShortcode("CertBadge", CertBadge);
+  eleventyConfig.addShortcode("Book", Book);
 
   eleventyConfig.addWatchTarget("src/css/");
 
