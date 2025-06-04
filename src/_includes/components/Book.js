@@ -17,7 +17,12 @@ function Book(title, hide, books) {
         var book = books[index];
         if (book.display && book.recommend)
         {
-            allBooks += `<li><a href='${book.url}'>${book.title}</a></li>`;
+            var title = book.title;
+            if (book.short_title != "" && book.short_title != null)
+            {
+                title = book.short_title;
+            }
+            allBooks += `<li><a href='${book.url}'>${title} by ${book.author}</a></li>`;
         }
     }
     allBooks += "</ul>";
