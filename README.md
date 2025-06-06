@@ -9,6 +9,7 @@
 
 ### Notes
 * This uses `nunjucks` for templating.
+* To be posiive a config change worked, sometimes you need to delete the `_site` folder and then re-run: `npm run build` so it gets regenerated.
 
 ### To Do
 * Optimize CSS
@@ -18,6 +19,7 @@
 * Combine podcasts and podcasts-recommended json files.
 * Correct Tech Spectrum
 * Add mobile category to tech spectrum
+* Finish moving partials
 
 ### Resources
 * https://www.11ty.dev
