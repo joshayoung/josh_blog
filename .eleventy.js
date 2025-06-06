@@ -14,11 +14,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPairedShortcode("CertBadge", CertBadge);
   eleventyConfig.addShortcode("Book", Book);
 
-  eleventyConfig.addWatchTarget("src/css/");
-
-    eleventyConfig.addCollection('posts', function(collectionApi) {
+  eleventyConfig.addCollection('posts', function(collectionApi) {
     return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
-  })
+  });
 
   eleventyConfig.addCollection("tags", function(collection) {
         let tags = new Set();
@@ -30,41 +28,18 @@ module.exports = function(eleventyConfig) {
         return Array.from(tags);
     });
 
-  eleventyConfig.addFilter("debugger", (...args) => {
-    console.log(...args)
-    debugger;
-  })
-
   eleventyConfig.addFilter("limit", function (arr, limit) {
     return arr.slice(0, limit);
   });
 
-  eleventyConfig.addExtension("scss", {
-		outputFileExtension: "css",
-
-		// opt-out of Eleventy Layouts
-		useLayouts: false,
-
+  eleventyConfig.addExtension("scss", { outputFileExtension: "css", useLayouts: false,
 		compile: async function (inputContent, inputPath) {
 			let parsed = path.parse(inputPath);
-			// Don’t compile file names that start with an underscore
-			if(parsed.name.startsWith("_")) {
-				return;
-			}
-
 			let result = sass.compileString(inputContent, {
-				loadPaths: [
-					parsed.dir || ".",
-					this.config.dir.includes,
-				]
+				loadPaths: [parsed.dir || ".", this.config.dir.includes]
 			});
-
-			// Map dependencies for incremental builds
 			this.addDependencies(inputPath, result.loadedUrls);
-
-			return async (data) => {
-				return result.css;
-			};
+			return async (data) => { return result.css; };
 		},
 	});
   
