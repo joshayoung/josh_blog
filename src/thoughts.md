@@ -1,5 +1,5 @@
 ---
-layout: layouts/blog2.html
+layout: layouts/page.html
 title: Josh Blog
 ---
 ## Thoughts
