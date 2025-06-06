@@ -1,0 +1,30 @@
+---
+layout: layouts/base.html
+title: Josh Blog
+---
+
+<div class="wrap">
+    <div class="inner">
+        <a id="top" href="#1" aria-label="top"></a>
+
+        <button class="hamburger">
+            <span></span>
+        </button>
+        {% include "navigation.html" %}
+
+        <main>
+            {% include "logo.html" %}
+            <div class="social">
+            {% include "social.html" %}
+            </div>  
+
+             {{ content | safe }}
+
+            <!-- tags -->
+
+            {% include "gototop.html" %}
+        </main>
+
+    </div><!-- inner-->
+</div><!-- wrap -->
+{% include "footer.html" %}
