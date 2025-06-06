@@ -16,6 +16,7 @@
 * Correct Hamberber Navigation
 * Add Udemy Classes
 * Combine podcasts and podcasts-recommended json files.
+* Correct Tech Spectrum
 
 ### Resources
 * https://www.11ty.dev

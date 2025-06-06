@@ -1,3 +1,7 @@
+---
+layout: layouts/blog2.html
+title: Josh Blog
+---
 # Axioms
 
 These are some axioms that relate to software development that I have found useful and instructive over the years.
