@@ -4,7 +4,7 @@
             <div>
             {% include "partials/social.html" %}
             </div>
-            <a href="/me">Josh Young - © 2025</a>
+            <a id="site_date" href="/me">Josh Young</a>
         </div>
         <div class="sub-wrap">
             <div class="fsub">
@@ -28,3 +28,7 @@
         </div>
     </div>
 </footer>
+<script>
+    const year = new Date().getFullYear();
+    var copyright = document.getElementById("site_date").innerHTML = `Josh Young - © ${year}`;
+</script>

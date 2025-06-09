@@ -15,10 +15,8 @@
 ### To Do
 * Optimize CSS
 * Optimize JS
-* Correct Hamberber Navigation
 * Add Udemy Classes
 * Combine podcasts and podcasts-recommended json files.
-* Correct Tech Spectrum
 * Add mobile category to tech spectrum
 
 ### Resources
