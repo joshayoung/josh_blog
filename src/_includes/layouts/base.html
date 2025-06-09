@@ -10,6 +10,7 @@
   </body>
 </html>
 <script>
+  addEventListener("DOMContentLoaded", (event) => { 
     var offScreen = false;
 
     function handleScroll() {
@@ -24,9 +25,6 @@
     }
 
     window.addEventListener("scroll", this.handleScroll);
-
-    // TODO: Do I need to remove this at some point?
-    // window.removeEventListener("scroll", this.handleScroll);
 
     /// navigation:
     let hamburger = document.querySelector(".hamburger");
@@ -48,4 +46,8 @@
         document.body.classList.remove("open");
       }
     });
+
+    const year = new Date().getFullYear();
+    var copyright = document.querySelector("#site_date").innerHTML = `Josh Young - © ${year}`;
+  });
 </script>
