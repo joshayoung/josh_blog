@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/");
   eleventyConfig.addPassthroughCopy("src/css/");
   eleventyConfig.addTemplateFormats("scss")
+  eleventyConfig.addPassthroughCopy({ "src/assets/images/favicon.png": "/" });
 
   // Components:
   eleventyConfig.addShortcode("Thought", Thought);
