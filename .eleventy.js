@@ -51,6 +51,11 @@ module.exports = function(eleventyConfig) {
 				useShortDoctype: true,
 				removeComments: true,
 				collapseWhitespace: true,
+
+        // additional options:
+        minifyJS: true,
+        minifyURLs: true,
+        minifyCSS: true,
 			});
 
 			return minified;
