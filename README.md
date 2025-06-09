@@ -6,6 +6,7 @@
 * npm i -D common-tags
 * npx @11ty/eleventy --serve
 * npm install sass
+* npm i -D html-minifier-terser
 
 ### Notes
 * This uses `nunjucks` for templating.

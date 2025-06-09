@@ -1,5 +1,7 @@
 const path = require("node:path");
 const sass = require("sass");
+const htmlmin = require("html-minifier-terser");
+
 const Thought = require('./src/_includes/components/Thought')
 const CertBadge = require('./src/_includes/components/CertBadge')
 const Book = require('./src/_includes/components/Book')
@@ -41,6 +43,21 @@ module.exports = function(eleventyConfig) {
 			this.addDependencies(inputPath, result.loadedUrls);
 			return async (data) => { return result.css; };
 		},
+	});
+
+  eleventyConfig.addTransform("htmlmin", function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+			});
+
+			return minified;
+		}
+
+		// If not an HTML output, return content as-is
+		return content;
 	});
   
   return {
