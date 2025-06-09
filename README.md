@@ -20,7 +20,6 @@
 * Combine podcasts and podcasts-recommended json files.
 * Correct Tech Spectrum
 * Add mobile category to tech spectrum
-* Finish moving partials
 
 ### Resources
 * https://www.11ty.dev

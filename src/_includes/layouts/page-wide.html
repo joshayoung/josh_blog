@@ -10,12 +10,11 @@ title: Josh Blog
         <button class="hamburger">
             <span></span>
         </button>
-        {% include "navigation.html" %}
-
+        {% include "partials/navigation.html" %}
         <main>
-            {% include "logo.html" %}
+            {% include "partials/logo.html" %}
             <div class="social">
-            {% include "social.html" %}
+            {% include "partials/social.html" %}
             </div>  
 
              {{ content | safe }}
@@ -24,7 +23,6 @@ title: Josh Blog
 
             {% include "partials/gototop.html" %}
         </main>
-
     </div><!-- inner-->
 </div><!-- wrap -->
 {% include "partials/footer.html" %}
