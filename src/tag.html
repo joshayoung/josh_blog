@@ -4,46 +4,21 @@ pagination:
   size: 1
   alias: tag
   addAllPagesToCollections: true
-layout: layouts/base.html
+layout: layouts/page.html
 permalink: /blog/tag/{{tag | slugify }}/index.html
 eleventyComputed:
   title: Posts Tagged with "{{ tag }}"
 ---
 
-<div class="wrap">
-    <div class="inner">
-        <a id="top" href="#1" aria-label="top"></a>
-
-        <button class="hamburger">
-            <span></span>
-        </button>
-        {% include "partials/navigation.html" %}
-
-        <main>
-            {% include "partials/logo.html" %}
-            <div class="social">
-                {% include "partials/social.html" %}
-            </div>
-
-            {% block content %}
-              <article class="post__content">
-                <h1>Thoughts Tagged with '{{ tag }}'</h1>
-                <ul>
-                {% for post in collections[tag] %}
-                  <li>
-                    <a href="{{post.url}}">{{post.data.title}}</a>
-                  </li>
-                {% endfor %}
-                </ul>
-              </article>
-            {% endblock %}
-
-            {% include "partials/gototop.html" %}
-        </main>
-
-        <div class="aside">
-            {% include "partials/glance.html" %}
-        </div>
-    </div><!-- inner-->
-</div><!-- wrap -->
-{% include "partials/footer.html" %}
+{% block content %}
+  <article class="post__content">
+    <h1>Thoughts Tagged with '{{ tag }}'</h1>
+    <ul>
+    {% for post in collections[tag] %}
+      <li>
+        <a href="{{post.url}}">{{post.data.title}}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </article>
+{% endblock %}
