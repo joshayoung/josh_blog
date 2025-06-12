@@ -469,11 +469,11 @@ margin(or padding): 10px 20px 10px;
 
 #### Chrome
 
-  <Chrome />
+{% include "partials/chrome.html" %}
 
 ### <a id="docker"></a>Docker
 
-  <Docker />
+{% include "partials/docker.html" %}
 
 ### <a id="html5"></a>HTML5
 
@@ -510,7 +510,7 @@ To use a unicode character with the css 'before' or 'after' sudo-selector, remov
 
 ### <a id="http"></a>HTTP
 
-  <HTTP />
+{% include "partials/http.html" %}
 
 ### <a id="ufw"></a>UFW
 
@@ -2023,11 +2023,11 @@ The command below could also be executed with 'bs=4m'.
 
 ### <a name='psql'></a>PostgreSQL
 
-<Postgresql />
+{% include "partials/postgresql.html" %}
 
 ### <a name='kanban'></a>Kanban
 
-<Kanban />
+{% include "partials/kanban.html" %}
 
 ### <a name='python'></a>Python
 
@@ -3482,7 +3482,7 @@ svg {
 
 ### <a name='rubymine'></a>RubyMine
 
-<Rubymine />
+{% include "partials/rubymine.html" %}
 
 ### <a name='intellij'></a>IntelliJ
 
@@ -3555,19 +3555,19 @@ Once you get the warning in the webpage, to continue to the site anyway, type: `
 
 ### <a name='tmux'></a>TMUX
 
-<TMUX />
+{% include "partials/tmux.html" %}
 
 ### <a name='vim'></a>VIM
 
-<VIM />
+{% include "partials/vim.html" %}
 
 ### <a name='vs_code'></a>VS Code
 
-<VSCode />
+{% include "partials/vs-code.html" %}
 
 ### <a name='visual_studio'></a>Visual Studio
 
-<VisualStudio />
+{% include "partials/visual_studio.html" %}
 
 ### <a name='windows'></a>Windows
 
