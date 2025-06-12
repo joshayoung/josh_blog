@@ -13,19 +13,6 @@
   addEventListener("DOMContentLoaded", (event) => { 
     var offScreen = false;
 
-    function handleScroll() {
-      const elem = document.getElementsByClassName("gototop")[0];
-        if (window.pageYOffset > 200) {
-            elem.style.position = "fixed";
-            elem.style.display = "block";
-        } else {
-            elem.style.display = "none";
-            elem.style.position = "relative";
-        }
-    }
-
-    window.addEventListener("scroll", this.handleScroll);
-
     /// navigation:
     let hamburger = document.querySelector(".hamburger");
     let navigation = document.querySelector(".nav");
@@ -49,5 +36,16 @@
 
     const year = new Date().getFullYear();
     var copyright = document.querySelector("#site_date").innerHTML = `Josh Young - © ${year}`;
+  });
+
+  addEventListener("scroll", (event) => { 
+      const elem = document.getElementsByClassName("gototop")[0];
+        if (window.pageYOffset > 200) {
+            elem.style.position = "fixed";
+            elem.style.display = "block";
+        } else {
+            elem.style.display = "none";
+            elem.style.position = "relative";
+        }
   });
 </script>
