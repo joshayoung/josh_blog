@@ -2,20 +2,20 @@ const path = require("node:path");
 const sass = require("sass");
 const htmlmin = require("html-minifier-terser");
 
+const Book = require('./src/_includes/components/Book')
 const Thought = require('./src/_includes/components/Thought')
 const CertBadge = require('./src/_includes/components/CertBadge')
-const Book = require('./src/_includes/components/Book')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/");
   eleventyConfig.addPassthroughCopy("src/css/");
-  eleventyConfig.addTemplateFormats("scss")
   eleventyConfig.addPassthroughCopy({ "src/assets/images/favicon.png": "/" });
 
-  // Components:
+  eleventyConfig.addTemplateFormats("scss")
+
+  eleventyConfig.addShortcode("Book", Book);
   eleventyConfig.addShortcode("Thought", Thought);
   eleventyConfig.addPairedShortcode("CertBadge", CertBadge);
-  eleventyConfig.addShortcode("Book", Book);
 
   eleventyConfig.addCollection('posts', function(collectionApi) {
     return collectionApi.getFilteredByGlob('src/blog/**/*.md');
@@ -52,8 +52,6 @@ module.exports = function(eleventyConfig) {
 				useShortDoctype: true,
 				removeComments: true,
 				collapseWhitespace: true,
-
-        // additional options:
         minifyJS: true,
         minifyURLs: true,
         minifyCSS: true,
@@ -62,7 +60,6 @@ module.exports = function(eleventyConfig) {
 			return minified;
 		}
 
-		// If not an HTML output, return content as-is
 		return content;
 	});
   

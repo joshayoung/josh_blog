@@ -18,7 +18,6 @@
 * Add Udemy Classes
 * Combine podcasts and podcasts-recommended json files.
 * Add mobile category to tech spectrum
-* Add remaining snippet sections.
 
 ### Resources
 * https://www.11ty.dev
