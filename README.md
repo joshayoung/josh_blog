@@ -6,6 +6,7 @@
 * npm i -D common-tags
 * npx @11ty/eleventy --serve
 * npm install sass
+* npm install @11ty/eleventy-plugin-webc
 * npm i -D html-minifier-terser
 
 ### Notes
@@ -27,3 +28,4 @@
 * https://www.11ty.dev/docs/shortcodes/
 * https://github.com/11ty/eleventy/issues/411#issuecomment-1296897934
 * https://bnijenhuis.nl/notes/adding-a-favicon-in-eleventy/
+* https://www.11ty.dev/docs/languages/webc/

@@ -1,12 +1,16 @@
 const path = require("node:path");
 const sass = require("sass");
 const htmlmin = require("html-minifier-terser");
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
 
 const Book = require('./src/_includes/components/Book')
 const Thought = require('./src/_includes/components/Thought')
 const CertBadge = require('./src/_includes/components/CertBadge')
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: "./src/_includes/webc/*.webc"
+  })
   eleventyConfig.addPassthroughCopy("src/assets/");
   eleventyConfig.addPassthroughCopy("src/css/");
   eleventyConfig.addPassthroughCopy({ "src/assets/images/favicon.png": "/" });
