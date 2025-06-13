@@ -19,6 +19,8 @@
 * Add Udemy Classes
 * Combine podcasts and podcasts-recommended json files.
 * Add mobile category to tech spectrum
+* Convert site to use webc components
+  * Ref: https://www.youtube.com/watch?v=p0wDUK0Z5Nw
 
 ### Resources
 * https://www.11ty.dev
