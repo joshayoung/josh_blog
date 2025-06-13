@@ -22,6 +22,14 @@
 * Convert site to use webc components
   * Ref: https://www.youtube.com/watch?v=p0wDUK0Z5Nw
 
+  ### WebC Conclusions so Far
+  * It seems that to use a webC component, you have to be in a webC page.
+  * A web see page cannot use a nunjucks include
+    * It has to be a webc component to use it.
+
+### Left off:
+* https://www.youtube.com/watch?v=X-Bpjrkz-V8
+
 ### Resources
 * https://www.11ty.dev
 * https://www.youtube.com/watch?v=uzM5lETc6Sg&list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW

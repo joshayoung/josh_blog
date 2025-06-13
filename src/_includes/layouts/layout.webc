@@ -1,0 +1,33 @@
+---
+layout: layouts/base.html
+title: Josh Blog
+---
+
+<div class="wrap">
+    <div class="inner">
+        <a id="top" href="#1" aria-label="top"></a>
+
+        <button class="hamburger">
+            <span></span>
+        </button>
+                TODO: Add Navigation
+
+        <main>
+                TODO: Add logo
+            <div class="social">
+                TODO: Add social
+            </div>  
+
+<div @html="this.content"></div>
+
+            <!-- tags -->
+
+            TODO: Add components: go to top
+        </main>
+
+        <div class="aside">
+            TODO: Add components: glance_small and tech
+        </div>
+    </div><!-- inner-->
+</div><!-- wrap -->
+TODO: Add Footer
