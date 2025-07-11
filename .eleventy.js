@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
     components: "./src/_includes/webc/*.webc"
   })
   eleventyConfig.addPassthroughCopy("src/assets/");
-  eleventyConfig.addPassthroughCopy("CNAME")
+  eleventyConfig.addPassthroughCopy("src/CNAME")
   eleventyConfig.addPassthroughCopy("src/css/");
   eleventyConfig.addPassthroughCopy({ "src/assets/images/favicon.png": "/" });
 
