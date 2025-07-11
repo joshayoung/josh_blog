@@ -9,6 +9,10 @@
 * npm install @11ty/eleventy-plugin-webc
 * npm i -D html-minifier-terser
 
+### Run Dev Server
+* `npm start`
+* Browse to: http://localhost:8080
+
 ### Notes
 * This uses `nunjucks` for templating.
 * To be posiive a config change worked, sometimes you need to delete the `_site` folder and then re-run: `npm run build` so it gets regenerated.
