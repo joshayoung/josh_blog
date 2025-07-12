@@ -51,3 +51,4 @@
 * https://quinndombrowski.com/blog/2022/05/07/hosting-eleventy-on-github-pages/
 * https://github.com/quinnanya/quinnanya.github.io/blob/main/.github/workflows/build.yml
 * https://maarten.be/blog/20220730/how-to-deploy-your-eleventy-website-to-github-pages-with-github-actions/
+* https://www.dawidsblog.com/posts/tutorial_11ty_github_pages/
