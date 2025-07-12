@@ -1,7 +1,0 @@
-Hello I am a component2
-<style>
-    body {
-        background: red;
-        font-size: 100px;
-    }
-</style>

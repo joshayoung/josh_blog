@@ -1,4 +1,0 @@
----
-layout: "layouts/layout.webc"
----
-<my-component></my-component>
