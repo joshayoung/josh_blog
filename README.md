@@ -25,6 +25,8 @@
 * Add mobile category to tech spectrum
 * Convert site to use webc components
   * Ref: https://www.youtube.com/watch?v=p0wDUK0Z5Nw
+* Add note about ~/.ssh/config being needed anytime you have a non-standard ssh-key file name to your snippets.
+* Correct pluralsight link.
 
   ### WebC Conclusions so Far
   * It seems that to use a webC component, you have to be in a webC page.
