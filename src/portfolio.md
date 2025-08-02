@@ -4,7 +4,7 @@ title: Josh Blog
 ---
 # Portfolio
 
-Below I have listed some of the projects that I have developed over the years along with the programming languages used for each.
+Outlined below are many of the projects (web and mobile) that I have developed over the years, along with information about each. Where possible, I have included links to screenshots and code demonstrating the work done.
 
 - [NoteMark App (2025)](#notemark)
 - [Kanboard App (2025)](#kanboard_app)
@@ -45,7 +45,7 @@ Using Kotlin and Android Native technologies like Compose, I build an app for ma
 
 ###### (11ty JavaScript, CSS, HTML, SASS)
 
-In an effort to make this website more easily maintainable, I reworked this website and moved it from Gatsy to 11ty. This effort involved moving a lot of the CSS that was embedded within the JavaScript code to live in plain CSS or SASS files. It also involved learning how 11ty worked and moving the partials, etc to the 11ty template structure.
+In an effort to make this website more easily maintainable, I reworked this website and moved it from Gatsy to 11ty. This effort involved moving a lot of the CSS that was embedded within the JavaScript code to live in plain CSS or SASS files. It also involved learning how 11ty worked and moving the partials, etc to the 11ty template structure. In addition, I had to setup a github workflow to publish this website automatically when I push changes to the remote repo.
 
 ### <a name='kmp_text_to_speech'></a>KMP Text to Speech App (2025)
 

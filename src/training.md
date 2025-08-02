@@ -32,9 +32,12 @@ In an effort to continually learn new technologies and stay abreast of existing 
 ### <a name='android_courses'></a>Android Courses
 
 Philipp Lackner offers some really great content on Android Native Development as well as KMP. Below are the courses I have taken through his training program.
+- [The Android Architecture Masterclass](https://pl-coding.com/architecture-masterclass/)
+- The Android Workshop Collection
+- [Mobile Dev Campus](https://pl-coding.com/campus/)
 - [The Jetpack Compose Masterclass](https://pl-coding.com/compose-masterclass)
 - [The Kotlin Coroutines & Flows Masterclass](https://pl-coding.com/coroutines-masterclass)
-- [Mastering Automtated Testing](https://pl-coding.com/testing)
+- [Mastering Automated Testing of Industry-Level Android Apps](https://pl-coding.com/testing)
 - [Building Industry-Level Multiplatform Apps With KMP](https://pl-coding.com/kmp)
 - [The Essentials of Industry-Level Android App Development](https://pl-coding.com/android-essentials)
 

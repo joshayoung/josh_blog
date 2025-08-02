@@ -17,6 +17,9 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Implement mobile apps with Jetpack Compose, Kotlin, Room, Koin, Hilt, etc.
 - Build mobile applications to match existing specs writen by designer in Figma.
 - Also utilize Kotlin Multiplatform (KMP) as well as iOS development using Swift and SwiftUI
+- (see [portfolio](/portfolio) for examples of work)
+
+---
 
 #### Senior Software Development Engineer
 
@@ -31,13 +34,27 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Work with QA and automation engineer to properly test mobile application.
 - (Gitflow, Scrum)
 
+---
+
 #### Software Engineer III
 
-##### Ramsey Solutions - Franklin, TN (2018 - 2022)
+##### Ramsey Solutions - Franklin, TN (2020 - 2022)
 
 - Build mobile applications using Xamarin and C#.
-- Maintain and improve web services written in Ruby and C#.
+- Utilize clean architecture to wite mobile application in a scalable way.
+- Ensure functionality of mobile app with both online and offline access.
+- Maintain and improve web services written in Ruby and React.
+- Work with Product and Design to build mobile application that conformed to designs
+- (Trunk-based, Kanban)
+
+---
+
+#### Software Engineer II
+
+##### Ramsey Solutions - Franklin, TN (2018 - 2020)
+
 - Develop and maintain many web properties (Ruby on Rails, JavaScript, CSS, HTML).
+- Work with the team to build and maintain checkout flow for online product.
 - Write and update xUnit/RSpec tests to insure good test coverage for our applications.
 - Troubleshoot logs to find and correct bugs in production.
 - Work with Java/Spring service to correct errors and add features.
@@ -45,7 +62,7 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ---
 
-#### Systems Analyst (Web Developer)
+#### Systems Analyst (Programmer)
 
 ##### Huntsville Utilities - Huntsville, AL (2010 - 2018)
 
@@ -195,7 +212,7 @@ I have listed more details about each one of these projects on my [projects](/pr
 
 ###### Minor: Business Administration
 
-<span>(Also see my continuing education under my <a href='/classes'>classes</a> page.)</span>
+<span>(Also see my continuing education under my <a href='/portfolio'>portfolio</a> page.)</span>
 
 ---
 
