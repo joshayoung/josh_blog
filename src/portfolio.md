@@ -6,6 +6,7 @@ title: Josh Blog
 
 Below I have listed some of the projects that I have developed over the years along with the programming languages used for each.
 
+- [NoteMark App (2025)](#notemark)
 - [Kanboard App (2025)](#kanboard_app)
 - [KMP Text to Speech (2025)](#kmp_text_to_speech)
 - [Running Tracker App (2025)](#running_tracker)
@@ -18,7 +19,7 @@ Below I have listed some of the projects that I have developed over the years al
 - [Will It Rain (2019)](#will_it_rain)
 - [Plot Notes (2018 - 2019)](#plot_notes)
 - [Note/URL System (2017)](#note_url_system)
-- [Joshyoung.me (2016)](#joshyoung)
+- [This Website (2016)](#joshyoung)
 - [Note Taking System (2014)](#note_system_flask)
 - [Joshayoung Website (2012)](#joshayoung)
 - [Code It Creation Website (2011)](#codeitcreations)
@@ -26,6 +27,12 @@ Below I have listed some of the projects that I have developed over the years al
 - [Ticketing System v1 (2010)](#ticketing_system)
 - [Comments and Capers Website (2009)](#commentsandcapers)
 - [Blogging System (2008)](#blogging_system)
+
+### <a name='notemark'></a>NoteMark App (2025)
+
+###### (Android Native, Kotlin, Compose, OAuth)
+
+This note app was built in android native utilizing OAuth authentication with a JWT and Refresh token for login. The app stores data both locally and in an API using clean architecture.
 
 ### <a name='kanboard_app'></a>Kanboard App (2025)
 
@@ -117,7 +124,7 @@ Essentially, it will allow me to add notes and tag them to URLs. It will also in
 
 ---
 
-### <a name='joshyoung'></a>This Website (joshyoung.me - 2016)
+### <a name='joshyoung'></a>This Website (2016)
 
 ###### (HTML, CSS, SASS, JavaScript, jQuery, Jekyll)
 

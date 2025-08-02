@@ -6,9 +6,17 @@ title: Josh Blog
 
 ### Experienced - Mobile Software Engineer
 
-Mobile Software Engineer with over 15 years of experience developing mobile and web applications. Using current programming languages to further company productivity. Improving user experience by working with members of my team to maintain and improve our applications.
+Mobile Software Engineer with over 15 years of experience developing applications. Using current programming languages to further company productivity. Improving user experience by working with members of my team to maintain and improve our applications.
 
 ### Work Experience
+
+##### Native Android Development (2024 - Present)
+
+- Built multiple native android mobile applications.
+- Utilize clean archicture techniques as recommended by Google.
+- Implement mobile apps with Jetpack Compose, Kotlin, Room, Koin, Hilt, etc.
+- Build mobile applications to match existing specs writen by designer in Figma.
+- Also utilize Kotlin Multiplatform (KMP) as well as iOS development using Swift and SwiftUI
 
 #### Senior Software Development Engineer
 
@@ -16,10 +24,11 @@ Mobile Software Engineer with over 15 years of experience developing mobile and 
 
 - Build and maintain backend systems using .NET, C#, and REST.
 - Write mobile application using Xamarin/Maui and C#.
-- Write blazor applications.
+- Advise team on best way to build mobile application using clean architecture.
 - Convert existing Xamarin app to Maui.
 - Write and Maintain ASP.NET Core API.
 - Setup authentication between backend APIs and the mobile app.
+- Work with QA and automation engineer to properly test mobile application.
 - (Gitflow, Scrum)
 
 #### Software Engineer III
