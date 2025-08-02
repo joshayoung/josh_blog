@@ -8,6 +8,7 @@ Below I have listed some of the projects that I have developed over the years al
 
 - [NoteMark App (2025)](#notemark)
 - [Kanboard App (2025)](#kanboard_app)
+- [Rewrite Website (2025)](#11ty_website)
 - [KMP Text to Speech (2025)](#kmp_text_to_speech)
 - [Running Tracker App (2025)](#running_tracker)
 - [Notes App (2024 - 2025)](#android_notes_app)
@@ -39,6 +40,12 @@ This note app was built in android native utilizing OAuth authentication with a 
 ###### (Android Native, Kotlin, Compose)
 
 Using Kotlin and Android Native technologies like Compose, I build an app for managing my kanban board. This way I did not need to login to the kanboard web interface to add/edit/remove tickets, etc. This app used a multi-module approach.
+
+### <a name='11ty_website'></a>Rewrite this Website Using 11ty (2025)
+
+###### (11ty JavaScript, CSS, HTML, SASS)
+
+In an effort to make this website more easily maintainable, I reworked this website and moved it from Gatsy to 11ty. This effort involved moving a lot of the CSS that was embedded within the JavaScript code to live in plain CSS or SASS files. It also involved learning how 11ty worked and moving the partials, etc to the 11ty template structure.
 
 ### <a name='kmp_text_to_speech'></a>KMP Text to Speech App (2025)
 
