@@ -2,9 +2,9 @@
 layout: layouts/page.html
 title: Josh Blog
 ---
-# Portfolio
+# Applications
 
-Outlined below are many of the projects (web and mobile) that I have developed over the years, along with information about each. Where possible, I have included links to screenshots and code demonstrating the work done.
+Outlined below are many of the apps (web and mobile) that I have developed over the years, along with information about each. Where possible, I have included links to screenshots and code demonstrating the work done.
 
 - [NoteMark App (2025)](#notemark)
 - [Kanboard App (2025)](#kanboard_app)
