@@ -6,6 +6,7 @@ const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const Book = require('./src/_includes/components/Book')
 const Thought = require('./src/_includes/components/Thought')
 const CertBadge = require('./src/_includes/components/CertBadge')
+const PortfolioItem = require('./src/_includes/components/PortfolioItem')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginWebc, {
@@ -21,6 +22,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode("Book", Book);
   eleventyConfig.addShortcode("Thought", Thought);
   eleventyConfig.addPairedShortcode("CertBadge", CertBadge);
+  eleventyConfig.addPairedShortcode("PortfolioItem", PortfolioItem);
 
   eleventyConfig.addCollection('posts', function(collectionApi) {
     return collectionApi.getFilteredByGlob('src/blog/**/*.md');

@@ -28,6 +28,8 @@
 * Add note about ~/.ssh/config being needed anytime you have a non-standard ssh-key file name to your snippets.
 * Correct pluralsight link.
 * See if you can remove the `.nojekyll` file.
+* Update page titles
+* Finish portfolio
 
   ### WebC Conclusions so Far
   * It seems that to use a webC component, you have to be in a webC page.
@@ -36,6 +38,9 @@
 
 ### Left off:
 * https://www.youtube.com/watch?v=X-Bpjrkz-V8
+
+### Images Used:
+* https://www.svgrepo.com/svg/522622/phone
 
 ### Resources
 * https://www.11ty.dev
