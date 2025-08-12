@@ -532,3 +532,15 @@ a.about-cert {
   color: rgb(51, 133, 255);
   font-size: 1.29rem;
 }
+
+.portfolio-item {
+  display: flex;
+
+  .logo-wrap {
+    background-color: white;
+  }
+
+  .description-wrap {
+    background-color: pink;
+  }
+}
