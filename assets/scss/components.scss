@@ -535,12 +535,39 @@ a.about-cert {
 
 .portfolio-item {
   display: flex;
+  margin-bottom: 40px;
 
   .logo-wrap {
-    background-color: white;
+    padding-right: 20px;
+    font-size: 14px;
+    img {
+      width: 80px;
+    }
   }
 
   .description-wrap {
-    background-color: pink;
+    p {
+      margin: 0;
+    }
+    h3 {
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+      font-size: 12px;
+      list-style-position: inside;
+    }
+    .tech {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .date {
+      font-style: italic;
+    }
+    a {
+      color: blue;
+      font-weight: bold;
+      font-size: 10px;
+    }
   }
 }

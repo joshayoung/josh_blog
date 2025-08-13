@@ -474,10 +474,35 @@ a.about-cert {
 
 .portfolio-item {
   display: flex;
+  margin-bottom: 40px;
 }
 .portfolio-item .logo-wrap {
-  background-color: white;
+  padding-right: 20px;
+  font-size: 14px;
 }
-.portfolio-item .description-wrap {
-  background-color: pink;
+.portfolio-item .logo-wrap img {
+  width: 80px;
+}
+.portfolio-item .description-wrap p {
+  margin: 0;
+}
+.portfolio-item .description-wrap h3 {
+  margin: 0;
+}
+.portfolio-item .description-wrap ul {
+  margin: 0;
+  font-size: 12px;
+  list-style-position: inside;
+}
+.portfolio-item .description-wrap .tech {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.portfolio-item .description-wrap .date {
+  font-style: italic;
+}
+.portfolio-item .description-wrap a {
+  color: blue;
+  font-weight: bold;
+  font-size: 10px;
 }
