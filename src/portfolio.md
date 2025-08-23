@@ -55,3 +55,88 @@ title: Josh Blog
   <li>Offline-first architecture with background sync</li>
 </ul>
 {% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/phone.png",
+  title=".NET MAUI Application",
+  date="01/2023 - 01/2024",
+  repo="",
+  visibility="",
+  tech=".NET MAUI, C#, .NET"
+   %}
+<h3>Contact and Notification App</h3>
+<ul>
+  <li>.NET MAUI and C#</li>
+  <li>Used MVVM and Clean Architecture</li>
+  <li>Used Events for communication</li>
+  <li>Online-first Architecture</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/phone.png",
+  title="MAUI",
+  date="06/2022 - present",
+  repo="",
+  visibility="",
+  tech=".NET MAUI, C#, ASP.NET"
+   %}
+<h3>Mapping Application</h3>
+<ul>
+  <li>.NET MAUI Application</li>
+  <li>Uses OAUTH for authentication and token refresh</li>
+  <li>Uses clean architecture and MVVM</li>
+  <li>Online-first architecture with offline backup</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/phone.png",
+  title="Xamarin",
+  date="01/2020 - 01/2021",
+  repo="",
+  visibility="",
+  tech="Xamarin, C#, ASP.NET"
+   %}
+<h3>Financial Recommendations App</h3>
+<ul>
+  <li>Xamarin Application</li>
+  <li>Uses OAUTH for authentication and token refresh</li>
+  <li>Uses clean architecture and MVVM</li>
+  <li>Offline-first architecture</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/phone.png",
+  title="Xamarin Application",
+  date="01/2019 - 01/2021",
+  repo="",
+  visibility="",
+  tech="Xamarin, C#, .NET"
+   %}
+<h3>Classes Application</h3>
+<ul>
+  <li>Xamarin</li>
+  <li>Used MVVM and Clean Architecture</li>
+  <li>Used Events for communication</li>
+  <li>Online-first Architecture</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/phone.png",
+  title="Native iOS",
+  date="01/2014 - 01/2016",
+  repo="",
+  visibility="",
+  tech="Xcode, iOS, Objective-C"
+   %}
+<h3>Home Inspection Application</h3>
+<ul>
+  <li>iOS Native Application</li>
+  <li>Used Storyboards and Xcode</li>
+  <li>Supported department in delivering quick results</li>
+  <li>Online-first Architecture</li>
+</ul>
+{% endPortfolioItem %}
