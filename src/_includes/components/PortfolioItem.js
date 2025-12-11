@@ -1,6 +1,12 @@
 const { html } = require('common-tags');
 
 function PortfolioItem(content, { title, visibility, repo, date, tech, image = null }) {
+
+    if (repo != null) {
+        var repoLink = html`
+            <li><a class='repo' href='${repo}'>Repo (${visibility})</a></li>
+        `;
+    }
     return html`
         <div class='portfolio-item'>
             <div class='logo-wrap'>
@@ -9,11 +15,10 @@ function PortfolioItem(content, { title, visibility, repo, date, tech, image = n
             </div>
             <div class='description-wrap'>
                 ${content}
-                <div class='tech'>
-                    <strong>Technologies:</strong> ${tech}
-                    <div class='date'>(${date})</div>
-                    <a class='repo' href='${repo}'>Link to Repo (${visibility})</a>
-                </div>
+                <ul class='tech'>
+                   <li><strong>Technologies:</strong> ${tech}</li>
+                    ${repoLink}
+                </ul>
             </div> 
         </div>
     `;

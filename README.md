@@ -58,3 +58,8 @@
 * https://github.com/quinnanya/quinnanya.github.io/blob/main/.github/workflows/build.yml
 * https://maarten.be/blog/20220730/how-to-deploy-your-eleventy-website-to-github-pages-with-github-actions/
 * https://www.dawidsblog.com/posts/tutorial_11ty_github_pages/
+
+### Icons
+* https://www.svgrepo.com/svg/478980/speech-bubble-1
+* https://www.svgrepo.com/svg/479372/reading
+* https://www.svgrepo.com/svg/482480/student-cap

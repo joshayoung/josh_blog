@@ -5,98 +5,85 @@ title: Josh Blog
 # App Portfolio
 
 {% PortfolioItem
-  image="apps/N.png",
+  image="apps/echo.png",
   title="Native Android",
-  date="06/2025 - 10/2025",
-  repo="https://github.com/joshayoung/NoteMark",
-  visibility="public",
-  tech="kotlin, android studio, jetpack compose, offline-first, syncing, workmanager"
+  repo="https://github.com/joshayoung/EchoJournal",
+  visibility="private - code available upon request",
+  tech="Kotlin, Android Studio, Jetpack Compose, Offline-first, Clean Architecture"
    %}
-<h3>NoteMark App</h3>
+<h3>EchoJournal</h3>
 <ul>
-  <li>Android Native application written in Jetpack Compose</li>
-  <li>Uses OAUTH Authentication with eefresh token capailities</li>
-  <li>Using clean architecture and MVI</li>
-  <li>Built with offline-first architecture</li>
-  <li>Uses a Workmanager that allows for syncing with a backend API</li>
+  <li>Allows the entry of journal notes</li>
+  <li>Data stored in a offline-first manner</li>
+  <li>Build with clean architecture using a decoupled approach</li>
 </ul>
 {% endPortfolioItem %}
 
 {% PortfolioItem
-  image="apps/phone.png",
-  title="KMM",
-  date="01/2025 - 03/2025",
-  repo="https://github.com/joshayoung/translator_kmm",
-  visibility="private - code available upon request",
-  tech="kotlin, android studio, jetpack compose, kmm, iOS, shared vm"
+  image="apps/N.png",
+  title="Native Android",
+  repo="https://github.com/joshayoung/NoteMark",
+  visibility="public",
+  tech="Kotlin, Android Studio, Jetpack Compose, Offline-first, Syncing, Workmanager"
    %}
-<h3>Translator App</h3>
+<h3>NoteMark</h3>
 <ul>
-  <li>Kotlin Multi Platform Application for Traslating Text</li>
-  <li>Builds app for both Android and iOS</li>
-  <li>Uses clean architecture and MVI</li>
-  <li>Uses a shared view model for the architecture</li>
+  <li>Allowed for note taking offline with remote backup, and sync</li>
+  <li>Uses OAuth Authentication with refresh token capabilities</li>
+  <li>Built with offline-first architecture</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/nfib.png",
+  title="X1 Mobile",
+  visibility="public",
+  tech="Reference Messenger, .NET MAUI, C#, MVVM, API Integration, REST"
+   %}
+<h3>X1 Mobile</h3>
+<ul>
+  <li>Allows for mapping of customer and projects for sales team</li>
+  <li>Integrates with multiple backend APIs using REST and a RESTful Architecture</li>
+  <li>Uses OAuth for authentication and token refresh</li>
+  <li>Adds the ability to checkout and purchase through the application using secure mechanisms</li>
 </ul>
 {% endPortfolioItem %}
 
 {% PortfolioItem
   image="apps/running.svg",
   title="Native Android",
-  date="11/2025 - 01/2025",
   repo="https://github.com/joshayoung/android_runique_class_app",
   visibility="private - code available upon request",
-  tech="kotlin, android studio, jetpack compose, native android, offline-first"
+  tech="Kotlin, Android Studio, Jetpack Compose, Native Android, Offline-first"
    %}
 <h3>Running Tracker App</h3>
 <ul>
-  <li>Native Android application</li>
-  <li>Uses OAUTH for authentication and token refresh</li>
-  <li>Uses clean architecture and MVI</li>
+  <li>Exercise tracking using GPS and Routing</li>
+  <li>Uses OAuth for authentication and token refresh</li>
   <li>Offline-first architecture with background sync</li>
 </ul>
 {% endPortfolioItem %}
 
 {% PortfolioItem
-  image="apps/phone.png",
-  title=".NET MAUI Application",
-  date="01/2023 - 01/2024",
-  repo="",
-  visibility="",
-  tech=".NET MAUI, C#, .NET"
+  image="apps/pizza.png",
+  title="Native Android",
+  repo="https://github.com/joshayoung/LazyPizza",
+  visibility="public",
+  tech="Kotlin, Android Studio, Jetpack Compose, Native Android, Offline-first"
    %}
-<h3>Contact and Notification App</h3>
+<h3>LazyPizza</h3>
 <ul>
-  <li>.NET MAUI and C#</li>
-  <li>Used MVVM and Clean Architecture</li>
-  <li>Used Events for communication</li>
-  <li>Online-first Architecture</li>
+  <li>Online delivery of pizzas with toppings, plus sides with offline backup</li>
+  <li>Allows users to build their selected order incrementally and checkout</li>
+  <li>Remote image loading and caching using Coil</li>
 </ul>
 {% endPortfolioItem %}
 
 {% PortfolioItem
-  image="apps/phone.png",
-  title="MAUI",
-  date="06/2022 - present",
-  repo="",
-  visibility="",
-  tech=".NET MAUI, C#, ASP.NET"
-   %}
-<h3>Mapping Application</h3>
-<ul>
-  <li>.NET MAUI Application</li>
-  <li>Uses OAUTH for authentication and token refresh</li>
-  <li>Uses clean architecture and MVVM</li>
-  <li>Online-first architecture with offline backup</li>
-</ul>
-{% endPortfolioItem %}
-
-{% PortfolioItem
-  image="apps/phone.png",
+  image="apps/ramsey-logo.png",
   title="Xamarin",
-  date="01/2020 - 01/2021",
-  repo="",
   visibility="",
-  tech="Xamarin, C#, ASP.NET"
+  tech="Xamarin, C#, ASP.NET, MVVM, Messaging, Event-Based"
    %}
 <h3>Financial Recommendations App</h3>
 <ul>
@@ -108,16 +95,31 @@ title: Josh Blog
 {% endPortfolioItem %}
 
 {% PortfolioItem
-  image="apps/phone.png",
-  title="Xamarin Application",
-  date="01/2019 - 01/2021",
-  repo="",
-  visibility="",
-  tech="Xamarin, C#, .NET"
+  image="apps/speech.svg",
+  title="KMM",
+  repo="https://github.com/joshayoung/translator_kmm",
+  visibility="private - code available upon request",
+  tech="Kotlin, Android Studio, Jetpack Compose, KMP, iOS, Shared ViewModel"
    %}
-<h3>Classes Application</h3>
+<h3>Translator App</h3>
 <ul>
-  <li>Xamarin</li>
+  <li>Kotlin Multi Platform Application for Traslating Text</li>
+  <li>Builds app for both Android and iOS</li>
+  <li>Uses clean architecture and MVI</li>
+  <li>Uses a shared view model for the architecture</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/book.svg",
+  title=".NET MAUI Application",
+  repo="https://github.com/joshayoung/contact-system-app",
+  visibility="private - code available upon request",
+  tech=".NET MAUI, C#, .NET, MVVM, Messaging, Clean Architecture"
+   %}
+<h3>Contact and Notification App</h3>
+<ul>
+  <li>Uses REST for integration with API backend</li>
   <li>Used MVVM and Clean Architecture</li>
   <li>Used Events for communication</li>
   <li>Online-first Architecture</li>
@@ -125,18 +127,33 @@ title: Josh Blog
 {% endPortfolioItem %}
 
 {% PortfolioItem
-  image="apps/phone.png",
+  image="apps/student.svg",
+  title="Xamarin Application",
+  tech="Xamarin, C#, .NET, MVVM, Event-Based, Notification-Based, Offline-First"
+   %}
+<h3>Classes Application</h3>
+<ul>
+  <li>Allows the addition of students and classes</lI>
+  <li>Build with a clean decoupled architecture</li>
+</ul>
+{% endPortfolioItem %}
+
+{% PortfolioItem
+  image="apps/hu-logo.png",
   title="Native iOS",
-  date="01/2014 - 01/2016",
-  repo="",
-  visibility="",
-  tech="Xcode, iOS, Objective-C"
+  tech="Xcode, iOS Storyboards, Custom Design, Objective-C"
    %}
 <h3>Home Inspection Application</h3>
 <ul>
-  <li>iOS Native Application</li>
-  <li>Used Storyboards and Xcode</li>
-  <li>Supported department in delivering quick results</li>
-  <li>Online-first Architecture</li>
+  <li>iOS Native Application for speeding up home energy inspections</li>
+  <li>Worked with stakeholders to build application that met their requirements</li>
+  <li>Online-first Architecture with offline functionality</li>
 </ul>
 {% endPortfolioItem %}
+
+
+### Additional Example
+* **Card Guessing Game** - Card Guessing Game (iOS) - Swift, SwiftUI
+* **Emoji Board** - Allows building a custom layout using emojis (iPhone and iPad) - Swift, SwiftUI
+* **Editable Notes** - Note editing and modification (Android) - Kotlin, Jetpack Compose, Coroutines, flows
+* **Travel Mapper** - Documenting location using maps for travel (Android) - Kotlin, Android Views, XML
