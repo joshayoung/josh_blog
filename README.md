@@ -51,6 +51,8 @@
 * https://github.com/11ty/eleventy/issues/411#issuecomment-1296897934
 * https://bnijenhuis.nl/notes/adding-a-favicon-in-eleventy/
 * https://www.11ty.dev/docs/languages/webc/
+* [Color Palette Generator](https://coolors.co)
+
 #### Setup with Github Pages
 * https://github.com/marketplace/actions/eleventy-action
 * https://snook.ca/archives/servers/deploying-to-github-pages-using-actions
