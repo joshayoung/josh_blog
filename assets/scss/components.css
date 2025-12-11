@@ -215,6 +215,7 @@ footer .social a {
 }
 
 .logo {
+  fill: black;
   font-size: 52px;
   font-family: "Acme", sans-serif;
   display: block;
@@ -474,6 +475,7 @@ a.about-cert {
 
 .portfolio-item {
   display: flex;
+  align-items: center;
   margin-bottom: 40px;
 }
 .portfolio-item .logo-wrap {
@@ -495,8 +497,11 @@ a.about-cert {
   list-style-position: inside;
 }
 .portfolio-item .description-wrap .tech {
-  margin-top: 10px;
+  margin-top: 2px;
   font-size: 12px;
+}
+.portfolio-item .description-wrap .tech li {
+  list-style-type: none;
 }
 .portfolio-item .description-wrap .date {
   font-style: italic;
