@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.html
-title: Josh Blog
+title: Josh Young
 ---
 # Recommended Repos
 * [Naming Convention](https://github.com/ktaranov/naming-convention)

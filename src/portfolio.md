@@ -1,6 +1,6 @@
 ---
 layout: layouts/page-wide.html
-title: Josh Blog
+title: Josh Young
 ---
 # App Portfolio
 

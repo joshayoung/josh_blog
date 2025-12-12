@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.html
-title: Josh Blog
+title: Josh Young
 ---
 # Resume
 
@@ -8,57 +8,43 @@ title: Josh Blog
 
 Mobile Software Engineer with over 15 years of experience developing applications. Using current programming languages to further company productivity. Improving user experience by working with members of my team to maintain and improve our applications.
 
+### Key Facts
+- 15+ years of development experience
+- Manage and deliver quality software
+- Android Native, KMP, Flow, XML, Compose
+- Kotlin, Swift, SwiftUI, Flutter, React Native
+- Clean Architecture, MVI, MVVM, TDD
+- Agile, Scrum, Kanban, CI/CD, AI
+- Gitflow and Trunk-based development
+
 ### Work Experience
-
-##### Native Android Development (2024 - Present)
-
-- Built multiple native android mobile applications.
-- Utilize clean archicture techniques as recommended by Google.
-- Implement mobile apps with Jetpack Compose, Kotlin, Room, Koin, Hilt, etc.
-- Build mobile applications to match existing specs writen by designer in Figma.
-- Also utilize Kotlin Multiplatform (KMP) as well as iOS development using Swift and SwiftUI
-- (see [portfolio](/portfolio) for examples of work)
-
----
 
 #### Senior Software Development Engineer
 
 ##### NFIB - Nashville, TN (2022 - Present)
-
-- Build and maintain backend systems using .NET, C#, and REST.
-- Write mobile application using Xamarin/Maui and C#.
-- Advise team on best way to build mobile application using clean architecture.
-- Convert existing Xamarin app to Maui.
-- Write and Maintain ASP.NET Core API.
-- Setup authentication between backend APIs and the mobile app.
-- Work with QA and automation engineer to properly test mobile application.
+- Developed a mapping-based app for Android and iOS
+- Facilitated and Lead Scrum Meetings
+- Integrated with multiple back-end APIs
+- Used MVVM and Clean Architectural Design
+- Collaborated with testers to deliver a quality product
+- Troubleshoot mobile application to provide solutions
+- Deliver metrics to management to aid in prioritization
 - (Gitflow, Scrum)
 
 ---
 
 #### Software Engineer III
 
-##### Ramsey Solutions - Franklin, TN (2020 - 2022)
-
-- Build mobile applications using Xamarin and C#.
-- Utilize clean architecture to wite mobile application in a scalable way.
-- Ensure functionality of mobile app with both online and offline access.
-- Maintain and improve web services written in Ruby and React.
-- Work with Product and Design to build mobile application that conformed to designs
-- (Trunk-based, Kanban)
-
----
-
-#### Software Engineer II
-
-##### Ramsey Solutions - Franklin, TN (2018 - 2020)
-
-- Develop and maintain many web properties (Ruby on Rails, JavaScript, CSS, HTML).
-- Work with the team to build and maintain checkout flow for online product.
-- Write and update xUnit/RSpec tests to insure good test coverage for our applications.
-- Troubleshoot logs to find and correct bugs in production.
+##### Ramsey Solutions - Franklin, TN (2018 - 2022)
+- Built mobile applications for Android and iOS
+- Wrote and updated unit, integration, and end-to-end tests
+- Use clean architecture to deliver software using MVVM
+- Worked with designers to match applications to mock ups
+- Provided guidance to other team members with our tech stack
+- Analyze logs to diagnose issues and correct bugs
+- Integrated with third-party and in-house APIs
 - Work with Java/Spring service to correct errors and add features.
-- (Trunk-based, Kanban)
+- Troubleshoot logs to find and correct bugs in production.
 
 ---
 
@@ -66,16 +52,14 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ##### Huntsville Utilities - Huntsville, AL (2010 - 2018)
 
-- Supported customers by developing web and mobile applications using PHP, Laravel, CodeIgniter, JavaScript, jQuery, React, HTML5, CSS, and MySQL.
-- Improved old code to support newer standards via progressive enhancement.
-- Guided other members of the team to deliver quality software to end-users.
+- Developed a green-field iOS Application for home inspections
+- Worked with stakeholders to ensure requirements are met
+- Implemented and developed the mobile back-end API
+- Collaborated with team and leadership to prioritize goals
+- Led meetings to discuss finding and direct development
+- Provide guidance and direction on application improvement
 - Ensured all details of new software projects were completed prior to final delivery.
-- Utilized Balsamiq Mockups to provide visuals that aided in fulfilling design requirements.
 - Enhanced application aesthetics by producing creative designs with Sketch.
-- Taught training course on the on the Linux operating system.
-- Focused on project goals to consistently deliver software on time.
-- Attended conferences, workshops, and online training to continually improve skillsets.
-- Worked with other technologies including: C#, ASP.NET, Ruby, Perl, Python, MS SQL, Oracle, Red Hat, macOS, and Windows Server.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.html
-title: Josh Blog
+title: Josh Young
 ---
 # Resources
 
