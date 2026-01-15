@@ -14,7 +14,8 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Android Native, KMP, Flow, XML, Compose
 - Kotlin, Swift, SwiftUI, Flutter, React Native
 - Clean Architecture, MVI, MVVM, TDD
-- Agile, Scrum, Kanban, CI/CD, AI
+- Agile, Scrum, Kanban, CI/CD
+- Claude Code, CoPilot, other LLMs.
 - Gitflow and Trunk-based development
 
 ### Work Experience
@@ -27,6 +28,7 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Integrated with multiple back-end APIs
 - Used MVVM and Clean Architectural Design
 - Collaborated with testers to deliver a quality product
+- Utilize AI to speed up development and improve code quality.
 - Troubleshoot mobile application to provide solutions
 - Deliver metrics to management to aid in prioritization
 - (Gitflow, Scrum)
