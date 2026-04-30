@@ -4,9 +4,9 @@ title: Josh Young
 ---
 # Resume
 
-### Experienced - Mobile Software Engineer
+### Senior - Mobile Software Engineer
 
-Mobile Software Engineer with over 15 years of experience developing applications. Using current programming languages to further company productivity. Improving user experience by working with members of my team to maintain and improve our applications.
+Senior Mobile Software Engineer with over 15 years of experience developing applications. Using current programming languages to further company productivity. Improving user experience by working with members of my team to maintain and improve our applications.
 
 ### Key Facts
 - 15+ years of development experience
@@ -15,10 +15,20 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Kotlin, Swift, SwiftUI, Flutter, React Native
 - Clean Architecture, MVI, MVVM, TDD
 - Agile, Scrum, Kanban, CI/CD
-- Claude Code, CoPilot, other LLMs.
+- Claude Code, Codex, CoPilot, other LLMs.
 - Gitflow and Trunk-based development
 
 ### Work Experience
+
+#### Mobile Applications Developer
+
+##### EMF K-LOVE & Air1 Media Networks (2026 - present)
+- Supporting and improving music and podcast streaming applications for Android and iOS.
+- Enhancing existing Android and iOS applications using Swift/SwiftUI and Kotlin/Jetpack Compose.
+- Utilizing kotlin, Jetpack Compose, coroutines, Swift, SwiftUI, View Models, API integration
+- Working with team to improve processes and delivery
+- Collaborating with testing team to insure issues are corrected
+- (Gitflow, Scrum)
 
 #### Senior Software Development Engineer
 
@@ -28,7 +38,7 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Integrated with multiple back-end APIs
 - Used MVVM and Clean Architectural Design
 - Collaborated with testers to deliver a quality product
-- Utilize AI to speed up development and improve code quality.
+- Utilize AI to speed up development and improve code quality
 - Troubleshoot mobile application to provide solutions
 - Deliver metrics to management to aid in prioritization
 - (Gitflow, Scrum)
@@ -45,7 +55,7 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Provided guidance to other team members with our tech stack
 - Analyze logs to diagnose issues and correct bugs
 - Integrated with third-party and in-house APIs
-- Work with Java/Spring service to correct errors and add features.
+- Work with Java/Spring service to correct errors and add features
 - Troubleshoot logs to find and correct bugs in production.
 
 ---
@@ -60,8 +70,8 @@ Mobile Software Engineer with over 15 years of experience developing application
 - Collaborated with team and leadership to prioritize goals
 - Led meetings to discuss finding and direct development
 - Provide guidance and direction on application improvement
-- Ensured all details of new software projects were completed prior to final delivery.
-- Enhanced application aesthetics by producing creative designs with Sketch.
+- Ensured all details of new software projects were completed prior to final delivery
+- Enhanced application aesthetics by producing creative designs with Sketch
 
 ---
 
@@ -69,13 +79,13 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ##### Web Developer/Designer (2009 - 2011)
 
-- Assisted customers by designing and developing web pages using standards-compliant XHTML, CSS, JavaScript, and jQuery.
-- Enabled custom functionality by integrating new PHP code within websites.
-- Diagnosed PHP, HTML, JavaScript, and CSS issues to correct bugs in code.
-- Designed and edited web mockups using Adobe Photoshop and other design tools.
-- Improved code as necessary to better support client needs and newer standards.
-- Setup and maintained website back-end code bases and the supporting databases.
-- Maintained databases and servers by writing bash and SQL scripts.
+- Assisted customers by designing and developing web pages using standards-compliant XHTML, CSS, JavaScript, and jQuery
+- Enabled custom functionality by integrating new PHP code within websites
+- Diagnosed PHP, HTML, JavaScript, and CSS issues to correct bugs in code
+- Designed and edited web mockups using Adobe Photoshop and other design tools
+- Improved code as necessary to better support client needs and newer standards
+- Setup and maintained website back-end code bases and the supporting databases
+- Maintained databases and servers by writing bash and SQL scripts
 
 ---
 
@@ -83,12 +93,12 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ##### ASI Software &amp; Web Solutions, Hoover, AL (November 2009 – August 2010)
 
-- Built and improved customer websites using CSS, HTML, JavaScript, and jQuery.
-- Worked with clients to identify back-end issues with PHP code and correct them.
-- Coordinated with team members to identify web problems and propose solutions.
-- Identified and corrected bugs in the front-end CSS, HTML, and JavaScript code.
-- Communicated with supervisor to complete the most important tasks on time.
-- Sliced Adobe Photoshop mockups to create CSS and HTML layouts.
+- Built and improved customer websites using CSS, HTML, JavaScript, and jQuery
+- Worked with clients to identify back-end issues with PHP code and correct them
+- Coordinated with team members to identify web problems and propose solutions
+- Identified and corrected bugs in the front-end CSS, HTML, and JavaScript code
+- Communicated with supervisor to complete the most important tasks on time
+- Sliced Adobe Photoshop mockups to create CSS and HTML layouts
 
 ---
 
@@ -96,9 +106,9 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ##### IT Department Bryan College - Dayton, TN (2007 – 2009)
 
-- Maintained the college website via XHTML, CSS, and a content management system (MODX).
-- Developed web pages for each athletic department and email templates for the athletic director.
-- Corrected ASP.NET and C# code to insure correct functioning of the school website.
+- Maintained the college website via XHTML, CSS, and a content management system (MODX)
+- Developed web pages for each athletic department and email templates for the athletic director
+- Corrected ASP.NET and C# code to insure correct functioning of the school website
 
 ---
 
@@ -106,11 +116,11 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ##### Student Researcher/Developer - Birmingham, AL (Summer 2008)
 
-- Set-up Linux server for hosting website content and MySQL database.
-- Developed website design using HTML and CSS.
-- Used PHP scripting language to interact with website content and MySQL database.
-- Implemented secure PHP practices and MySQL database schema.
-- Arranged results of research into downloadable content for placement on website.
+- Set-up Linux server for hosting website content and MySQL database
+- Developed website design using HTML and CSS
+- Used PHP scripting language to interact with website content and MySQL database
+- Implemented secure PHP practices and MySQL database schema
+- Arranged results of research into downloadable content for placement on website
 
 ---
 
@@ -118,9 +128,9 @@ Mobile Software Engineer with over 15 years of experience developing application
 
 ##### APAC Mid-South - Birmingham, AL (Summer 2008)
 
-- Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports.
-- Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment.
-- Remoted into client's computers to set up software and troubleshoot technical problems.
+- Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports
+- Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment
+- Remoted into client's computers to set up software and troubleshoot technical problems
 
 ---
 

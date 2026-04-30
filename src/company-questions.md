@@ -18,6 +18,11 @@ When interviewing for a software developer position, below are some of the quest
 1. Will there be any leadership opportunities?
 1. Do you use Agile methodologies (scrum, kanban, product owner, project manager, etc)?
 1. What is your git workflow (trunk-based, git flow, feature flags)?
+1. What is your background in development (for team lead)?
+1. Do you have different environments for the front-end/back-end (dev, staging, qa, prod, etc)?
+1. Do you have a current app in production and what is it written in?
+1. Do you have ceremonies (backlog refinement, sprint planning, retrospectives, demos, sprint reviews, etc)?
+1. Do you manually review your code?
 
 #### Curiosity
 * What do you do for DevOps (CI/CD)?
